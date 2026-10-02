@@ -1,0 +1,39 @@
+{
+ "board_accuracy_mean": 0.9833,
+ "board_accuracy_sem": 0.0167,
+ "collected_on": "2026-09-25",
+ "compact_threshold": null,
+ "cost_basis": "per_request_list",
+ "cost_usd_list_price": 0.0855,
+ "deduced_correct_in_guess_mean": 11.8,
+ "deducible_at_guess_mean": 12.0,
+ "effort": "medium",
+ "episodes": 15,
+ "failed_seeds": {
+  "1": "ResponsesHTTPError: OpenAI Responses POST HTTP 429, code=credit_balance_exhausted, request_id=req_ce77d926da484c9986f6f1f24e516d1d; body_sha256=48d9f03c6f9b357bc078fb3eb43d1a51aaa9a2c3257727dc310158e50b086fa3",
+  "3": "ResponsesHTTPError: OpenAI Responses POST HTTP 429, code=credit_balance_exhausted, request_id=req_4de75555c3b649f7a7a97f871a9726a0; body_sha256=48d9f03c6f9b357bc078fb3eb43d1a51aaa9a2c3257727dc310158e50b086fa3",
+  "7": "ResponsesHTTPError: OpenAI Responses POST HTTP 429, code=credit_balance_exhausted, request_id=req_de91ddb67090488594049656483188db; body_sha256=48d9f03c6f9b357bc078fb3eb43d1a51aaa9a2c3257727dc310158e50b086fa3",
+  "8": "ResponsesHTTPError: OpenAI Responses POST HTTP 429, code=credit_balance_exhausted, request_id=req_f9b0927370bf43668a304b1c103f608a; body_sha256=48d9f03c6f9b357bc078fb3eb43d1a51aaa9a2c3257727dc310158e50b086fa3",
+  "9": "ResponsesHTTPError: OpenAI Responses POST HTTP 429, code=credit_balance_exhausted, request_id=req_253114229b0141308de673c8a2c14969; body_sha256=48d9f03c6f9b357bc078fb3eb43d1a51aaa9a2c3257727dc310158e50b086fa3"
+ },
+ "guess_turn_mean": 15.8,
+ "harness": "retained-reasoning",
+ "known_presses_total": 414,
+ "lock_score_mean": 2.33,
+ "lock_wrong_total": 0,
+ "model": "gpt-5.6-luna",
+ "prompt_version": "bb-r2",
+ "reasoning_context": "all_turns",
+ "solve_rate": 0.9333,
+ "tier": "t2_announced",
+ "total_retries": 0,
+ "usage": {
+  "cache_read_tokens": 501958,
+  "cache_write_tokens": 65113,
+  "input_tokens": 603865,
+  "output_tokens": 43219,
+  "reasoning_tokens": 35810,
+  "total_tokens": 647084
+ },
+ "violations_total": 0
+}

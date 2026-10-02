@@ -1,0 +1,14 @@
+{
+ "collected_on": "2026-09-25",
+ "cost_basis": "per_request_list",
+ "cost_usd_list_price": 4.3739,
+ "effort": "max",
+ "episodes": 3,
+ "failed_seeds": {
+  "6": "ResponsesTerminalError: incomplete (max_output_tokens); pre-0.3.5 harness"
+ },
+ "harness": "retained-reasoning (diagnostic probe transport)",
+ "model": "gpt-5.6-sol",
+ "purpose": "invalid_prompt determinism probe: every refused request was re-POSTed verbatim; 3 of 3 refusals passed on the first re-send (events.jsonl). Not a scored cell.",
+ "tier": "t9_macbook"
+}

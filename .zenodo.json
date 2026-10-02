@@ -1,0 +1,12 @@
+{
+  "title": "Blindboard v1: environment, harness, and evidence",
+  "upload_type": "dataset",
+  "version": "1.0.0",
+  "creators": [
+    {"name": "Allcock, Adam", "affiliation": "Independent researcher"}
+  ],
+  "description": "<p>Code and data release for <em>Blindboard: Measuring State Tracking Under Interference with a Hidden, Shifting Keyboard</em> (Allcock, 2026). Blindboard tests whether a language model can keep track of facts that keep changing: a model presses keys on a keyboard whose layout is hidden, is told which symbols came back but not from which key, and keeps the layout current while the board reshuffles itself between turns.</p><p>The release contains the environment and its scripted reference solver, the harness that carries each model's own reasoning between turns, every scored episode of the retained-reasoning and visible-transcript campaigns with full transcripts, the diagnostics behind every published number, and <code>rebuild.py</code>, which regenerates every table and number in the paper from the stored episodes and checks them byte for byte (Python standard library only, no network).</p>",
+  "license": "cc-by-4.0",
+  "notes": "Code (blindboard/, scripts/, tests/, rebuild.py) is licensed under the Apache License 2.0; data and documentation under CC BY 4.0. See LICENSE and LICENSE-DATA-DOCS.md.",
+  "keywords": ["benchmark", "large language models", "state tracking", "reasoning", "evaluation"]
+}

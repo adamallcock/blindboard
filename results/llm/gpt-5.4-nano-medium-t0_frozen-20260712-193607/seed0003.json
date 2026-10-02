@@ -1,0 +1,370 @@
+{
+ "records": [
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    0,
+    3,
+    6
+   ],
+   "presses": [
+    "L-pinky-top",
+    "L-ring-top",
+    "L-middle-top"
+   ],
+   "results": [
+    "F",
+    "G",
+    "H"
+   ],
+   "rotation": {
+    "mode": "none",
+    "positions": []
+   },
+   "turn": 1
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    0,
+    9,
+    10
+   ],
+   "presses": [
+    "L-pinky-top",
+    "L-index-top",
+    "L-index-home"
+   ],
+   "results": [
+    "A",
+    "C",
+    "H"
+   ],
+   "rotation": {
+    "mode": "none",
+    "positions": []
+   },
+   "turn": 2
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    0,
+    9,
+    4
+   ],
+   "presses": [
+    "L-pinky-top",
+    "L-index-top",
+    "L-ring-home"
+   ],
+   "results": [
+    "A",
+    "B",
+    "H"
+   ],
+   "rotation": {
+    "mode": "none",
+    "positions": []
+   },
+   "turn": 3
+  },
+  {
+   "locks_accepted": {
+    "L-pinky-top": "H",
+    "L-ring-home": "B"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    0,
+    4,
+    3
+   ],
+   "presses": [
+    "L-pinky-top",
+    "L-ring-home",
+    "L-ring-top"
+   ],
+   "results": [
+    "B",
+    "F",
+    "H"
+   ],
+   "rotation": {
+    "mode": "none",
+    "positions": []
+   },
+   "turn": 4
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    1,
+    5,
+    11
+   ],
+   "presses": [
+    "L-pinky-home",
+    "L-ring-bottom",
+    "L-index-bottom"
+   ],
+   "results": [
+    "E",
+    "I",
+    "J"
+   ],
+   "rotation": {
+    "mode": "none",
+    "positions": []
+   },
+   "turn": 5
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    0,
+    3,
+    1
+   ],
+   "presses": [
+    "L-pinky-top",
+    "L-ring-top",
+    "L-pinky-home"
+   ],
+   "results": [
+    "E",
+    "F",
+    "H"
+   ],
+   "rotation": {
+    "mode": "none",
+    "positions": []
+   },
+   "turn": 6
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    5,
+    1,
+    7
+   ],
+   "presses": [
+    "L-ring-bottom",
+    "L-pinky-home",
+    "L-middle-home"
+   ],
+   "results": [
+    "E",
+    "J",
+    "L"
+   ],
+   "rotation": {
+    "mode": "none",
+    "positions": []
+   },
+   "turn": 7
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    2,
+    0,
+    3
+   ],
+   "presses": [
+    "L-pinky-bottom",
+    "L-pinky-top",
+    "L-ring-top"
+   ],
+   "results": [
+    "D",
+    "F",
+    "H"
+   ],
+   "rotation": {
+    "mode": "none",
+    "positions": []
+   },
+   "turn": 8
+  }
+ ],
+ "result": {
+  "api_calls": 9,
+  "board_accuracy": 1.0,
+  "board_n": 12,
+  "config": {
+   "board": "fingers12",
+   "chord_size": 3,
+   "horizon": 12,
+   "layout_kind": "random",
+   "lock_bonus": 1,
+   "lock_penalty": -3,
+   "min_guess_turn": 1,
+   "near_qwerty_swaps": 6,
+   "rotation_mode": "none",
+   "rotation_schedule": [],
+   "rotor_size": 4
+  },
+  "correct": 12,
+  "diagnostics": {
+   "deduced_correct_in_guess": 12,
+   "deducible_at_guess": 12,
+   "known_presses": 8,
+   "total_presses": 24,
+   "tracker_truth_matches": 12,
+   "zero_info_chords": 0
+  },
+  "effort": "medium",
+  "final_layout": {
+   "L-index-bottom": "I",
+   "L-index-home": "C",
+   "L-index-top": "A",
+   "L-middle-bottom": "K",
+   "L-middle-home": "L",
+   "L-middle-top": "G",
+   "L-pinky-bottom": "D",
+   "L-pinky-home": "E",
+   "L-pinky-top": "H",
+   "L-ring-bottom": "J",
+   "L-ring-home": "B",
+   "L-ring-top": "F"
+  },
+  "forced_guess": false,
+  "guess": {
+   "L-index-bottom": "I",
+   "L-index-home": "C",
+   "L-index-top": "A",
+   "L-middle-bottom": "K",
+   "L-middle-home": "L",
+   "L-middle-top": "G",
+   "L-pinky-bottom": "D",
+   "L-pinky-home": "E",
+   "L-pinky-top": "H",
+   "L-ring-bottom": "J",
+   "L-ring-home": "B",
+   "L-ring-top": "F"
+  },
+  "guess_turn": 9,
+  "lock_correct": 2,
+  "lock_score": 2,
+  "lock_wrong": 0,
+  "locks": {
+   "L-pinky-top": "H",
+   "L-ring-home": "B"
+  },
+  "meta": {
+   "retries": 0
+  },
+  "model": "gpt-5.4-nano",
+  "seed": 3,
+  "total_retries": 0,
+  "usage": {
+   "input_tokens": 7157,
+   "output_tokens": 24099,
+   "total_tokens": 31256
+  },
+  "violations": []
+ },
+ "transcript": [
+  {
+   "role": "system",
+   "text": "You are playing BLINDBOARD, a deduction game about a hidden keyboard.\n\nTHE BOARD\nThe board is a one-handed keyboard with 12 keys: 4 fingers (pinky, ring, middle, index) x 3 rows (top, home, bottom). Each key is addressed by finger and row. The complete list of valid key addresses:\nL-pinky-top, L-pinky-home, L-pinky-bottom, L-ring-top, L-ring-home, L-ring-bottom, L-middle-top, L-middle-home, L-middle-bottom, L-index-top, L-index-home, L-index-bottom\n\nThe 12 letters A, B, C, D, E, F, G, H, I, J, K, L are assigned to the 12 keys in a hidden arrangement (each letter on exactly one key). Your job: work out which letter is on which key.\n\nEACH TURN\n- You press exactly 3 DIFFERENT keys (a chord) by giving their addresses.\n- Next turn you are told which 3 letters those keys held, as an ALPHABETICALLY SORTED list. You are NOT told which letter came from which key. Overlap your chords cleverly to pin letters to keys.\n\nROTATIONS\nThe keys never move: the arrangement is fixed for the whole game.\n\nLOCKS (optional, side score)\nOn any press turn you may lock letters onto keys you are sure of: +1 point if correct at that moment, -3 if wrong. You get no feedback on locks during the game. Each key can be locked only once, ever.\n\nFINAL GUESS\nYou may end the game at any time by submitting your full guess. After turn 12 you MUST submit it. Your main score is how many of the 12 keys you guess correctly, judged against the arrangement at the moment you guess.\n\nRESPONSE FORMAT\nReply with ONLY one JSON object, no other text.\nTo press: {\"presses\": [\"L-pinky-top\", \"L-ring-home\", \"L-middle-bottom\"]}\nTo press and lock: {\"presses\": [ ... 3 addresses ... ], \"locks\": {\"L-pinky-home\": \"A\"}}\nTo guess (ends the game): {\"guess\": {\"L-pinky-top\": \"A\", ... one entry for every key ...}}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 1 of 12.\nReply with your action JSON."
+  },
+  {
+   "role": "assistant",
+   "text": "{\"presses\":[\"L-pinky-top\",\"L-ring-top\",\"L-middle-top\"]}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 2 of 12.\nLast turn you pressed: L-pinky-top, L-ring-top, L-middle-top.\nTheir letters (alphabetical, unordered): F, G, H.\nReply with your action JSON."
+  },
+  {
+   "role": "assistant",
+   "text": "{\"presses\":[\"L-pinky-top\",\"L-index-top\",\"L-index-home\"]}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 3 of 12.\nLast turn you pressed: L-pinky-top, L-index-top, L-index-home.\nTheir letters (alphabetical, unordered): A, C, H.\nReply with your action JSON."
+  },
+  {
+   "role": "assistant",
+   "text": "{\"presses\":[\"L-pinky-top\",\"L-index-top\",\"L-ring-home\"]}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 4 of 12.\nLast turn you pressed: L-pinky-top, L-index-top, L-ring-home.\nTheir letters (alphabetical, unordered): A, B, H.\nReply with your action JSON."
+  },
+  {
+   "role": "assistant",
+   "text": "{\"presses\":[\"L-pinky-top\",\"L-ring-home\",\"L-ring-top\"],\"locks\":{\"L-pinky-top\":\"H\",\"L-ring-home\":\"B\"}}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 5 of 12.\nLast turn you pressed: L-pinky-top, L-ring-home, L-ring-top.\nTheir letters (alphabetical, unordered): B, F, H.\nReply with your action JSON."
+  },
+  {
+   "role": "assistant",
+   "text": "{\"presses\":[\"L-pinky-home\",\"L-ring-bottom\",\"L-index-bottom\"]}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 6 of 12.\nLast turn you pressed: L-pinky-home, L-ring-bottom, L-index-bottom.\nTheir letters (alphabetical, unordered): E, I, J.\nReply with your action JSON."
+  },
+  {
+   "role": "assistant",
+   "text": "{\"presses\":[\"L-pinky-top\",\"L-ring-top\",\"L-pinky-home\"]}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 7 of 12.\nLast turn you pressed: L-pinky-top, L-ring-top, L-pinky-home.\nTheir letters (alphabetical, unordered): E, F, H.\nReply with your action JSON."
+  },
+  {
+   "role": "assistant",
+   "text": "{\"presses\":[\"L-ring-bottom\",\"L-pinky-home\",\"L-middle-home\"]}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 8 of 12.\nLast turn you pressed: L-ring-bottom, L-pinky-home, L-middle-home.\nTheir letters (alphabetical, unordered): E, J, L.\nReply with your action JSON."
+  },
+  {
+   "role": "assistant",
+   "text": "{\"presses\":[\"L-pinky-bottom\",\"L-pinky-top\",\"L-ring-top\"]}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 9 of 12.\nLast turn you pressed: L-pinky-bottom, L-pinky-top, L-ring-top.\nTheir letters (alphabetical, unordered): D, F, H.\nReply with your action JSON."
+  },
+  {
+   "role": "assistant",
+   "text": "{\"guess\":{\"L-pinky-top\":\"H\",\"L-pinky-home\":\"E\",\"L-pinky-bottom\":\"D\",\"L-ring-top\":\"F\",\"L-ring-home\":\"B\",\"L-ring-bottom\":\"J\",\"L-middle-top\":\"G\",\"L-middle-home\":\"L\",\"L-middle-bottom\":\"K\",\"L-index-top\":\"A\",\"L-index-home\":\"C\",\"L-index-bottom\":\"I\"}}"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "collected_on": "2026-09-28",
+ "cost_basis": "per_request_list",
+ "cost_usd_list_price": 0.005127,
+ "effort": "medium",
+ "harness": "retained-reasoning (forked native sessions) vs visible-only control",
+ "model": "gpt-6-luna",
+ "purpose": "retention recall probe: can the model act on its retained reasoning?",
+ "tier": null,
+ "variants": {
+  "escape": {
+   "control_answered": 0,
+   "control_jointly_consistent": 0,
+   "control_matches_summary_n": 0,
+   "errors": 0,
+   "jointly_consistent": 8,
+   "leaked": 0,
+   "matches_summary_n": 8,
+   "retained_answered": 8,
+   "scored": 8,
+   "summary_shows_n": 8,
+   "trials": 8
+  },
+  "forced": {
+   "control_answered": 8,
+   "control_jointly_consistent": 6,
+   "control_matches_summary_n": 0,
+   "errors": 0,
+   "jointly_consistent": 8,
+   "leaked": 0,
+   "matches_summary_n": 8,
+   "retained_answered": 8,
+   "scored": 8,
+   "summary_shows_n": 8,
+   "trials": 8
+  }
+ }
+}

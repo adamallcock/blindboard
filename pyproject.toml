@@ -1,0 +1,16 @@
+[project]
+name = "blindboard"
+version = "1.0.0"
+description = "Blindboard: a hidden, shifting keyboard for measuring state tracking under interference"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+figures = ["matplotlib"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["blindboard*"]

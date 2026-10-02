@@ -1,0 +1,35 @@
+{
+ "board_accuracy_mean": 0.9519,
+ "board_accuracy_sem": 0.0288,
+ "collected_on": "2026-09-25",
+ "compact_threshold": null,
+ "cost_basis": "per_request_list",
+ "cost_usd_list_price": 3.8399,
+ "deduced_correct_in_guess_mean": 23.5,
+ "deducible_at_guess_mean": 23.5,
+ "effort": "max",
+ "episodes": 4,
+ "failed_seeds": {
+  "3": "ResponsesHTTPError: OpenAI Responses POST HTTP 429, code=credit_balance_exhausted, request_id=req_0347c77315754d889e4a93c9a1a1d4c6; body_sha256=48d9f03c6f9b357bc078fb3eb43d1a51aaa9a2c3257727dc310158e50b086fa3"
+ },
+ "guess_turn_mean": 17.0,
+ "harness": "retained-reasoning",
+ "known_presses_total": 85,
+ "lock_score_mean": 14.5,
+ "lock_wrong_total": 0,
+ "model": "gpt-5.6-terra",
+ "prompt_version": "bb-r2",
+ "reasoning_context": "all_turns",
+ "solve_rate": 0.5,
+ "tier": "t7_blitz",
+ "total_retries": 0,
+ "usage": {
+  "cache_read_tokens": 1619828,
+  "cache_write_tokens": 214274,
+  "input_tokens": 1837668,
+  "output_tokens": 247762,
+  "reasoning_tokens": 244252,
+  "total_tokens": 2085430
+ },
+ "violations_total": 0
+}

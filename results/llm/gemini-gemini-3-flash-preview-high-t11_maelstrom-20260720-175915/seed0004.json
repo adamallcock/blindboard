@@ -1,0 +1,2129 @@
+{
+ "records": [
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "presses": [
+    "L-pinky-num-out",
+    "L-pinky-num",
+    "L-pinky-top",
+    "L-pinky-home",
+    "L-pinky-bottom"
+   ],
+   "relabel": null,
+   "results": [
+    "[",
+    ";",
+    "P",
+    "R",
+    "X"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-bottom",
+     "L-index-bottom-in",
+     "R-middle-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "16": 31,
+     "20": 16,
+     "31": 20
+    },
+    "positions": [
+     16,
+     20,
+     31
+    ]
+   },
+   "turn": 1
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    0,
+    1,
+    2,
+    3,
+    5
+   ],
+   "presses": [
+    "L-pinky-num-out",
+    "L-pinky-num",
+    "L-pinky-top",
+    "L-pinky-home",
+    "L-ring-num"
+   ],
+   "relabel": null,
+   "results": [
+    ";",
+    "J",
+    "P",
+    "R",
+    "X"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-middle-bottom",
+     "R-index-num",
+     "R-pinky-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "12": 25,
+     "25": 39,
+     "39": 12
+    },
+    "positions": [
+     12,
+     25,
+     39
+    ]
+   },
+   "turn": 2
+  },
+  {
+   "locks_accepted": {
+    "L-pinky-bottom": "[",
+    "L-ring-num": "J"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    0,
+    6,
+    7,
+    8,
+    9
+   ],
+   "presses": [
+    "L-pinky-num-out",
+    "L-ring-top",
+    "L-ring-home",
+    "L-ring-bottom",
+    "L-middle-num"
+   ],
+   "relabel": null,
+   "results": [
+    "\\",
+    ",",
+    "3",
+    "F",
+    "X"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-bottom",
+     "L-pinky-top",
+     "R-middle-num"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "16": 2,
+     "2": 29,
+     "29": 16
+    },
+    "positions": [
+     2,
+     16,
+     29
+    ]
+   },
+   "turn": 3
+  },
+  {
+   "locks_accepted": {
+    "L-pinky-num-out": "X"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    1,
+    3,
+    6,
+    7,
+    10
+   ],
+   "presses": [
+    "L-pinky-num",
+    "L-pinky-home",
+    "L-ring-top",
+    "L-ring-home",
+    "L-middle-top"
+   ],
+   "relabel": null,
+   "results": [
+    "\\",
+    ",",
+    "E",
+    "P",
+    "R"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-ring-num",
+     "R-index-home",
+     "R-pinky-top"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "27": 5,
+     "38": 27,
+     "5": 38
+    },
+    "positions": [
+     5,
+     27,
+     38
+    ]
+   },
+   "turn": 4
+  },
+  {
+   "locks_accepted": {
+    "L-middle-top": "E"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    1,
+    6,
+    8,
+    12,
+    16
+   ],
+   "presses": [
+    "L-pinky-num",
+    "L-ring-top",
+    "L-ring-bottom",
+    "L-middle-bottom",
+    "L-index-bottom"
+   ],
+   "relabel": null,
+   "results": [
+    ",",
+    "F",
+    "M",
+    "R",
+    "V"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-top",
+     "L-middle-top",
+     "R-index-bottom-in"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "10": 24,
+     "14": 10,
+     "24": 14
+    },
+    "positions": [
+     10,
+     14,
+     24
+    ]
+   },
+   "turn": 5
+  },
+  {
+   "locks_accepted": {
+    "L-middle-num": "3",
+    "L-pinky-home": "P",
+    "L-pinky-num": "R",
+    "L-ring-bottom": "F",
+    "L-ring-home": "\\",
+    "L-ring-top": ","
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    12,
+    13,
+    14,
+    15,
+    17
+   ],
+   "presses": [
+    "L-middle-bottom",
+    "L-index-num",
+    "L-index-top",
+    "L-index-home",
+    "L-index-num-in"
+   ],
+   "relabel": {
+    "a": "L-index-in",
+    "b": "R-ring",
+    "notice": "RELABEL NOTICE: the L-index-in finger column and the R-ring finger column have swapped addresses (every row). From now on, addresses starting L-index-in- refer to the physical keys previously addressed R-ring-, and vice versa. Any rotation notice in this message already uses the NEW addressing."
+   },
+   "results": [
+    ".",
+    "/",
+    "C",
+    "G",
+    "M"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-top",
+     "L-middle-bottom",
+     "R-index-home-in"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "12": 14,
+     "14": 23,
+     "23": 12
+    },
+    "positions": [
+     12,
+     14,
+     23
+    ]
+   },
+   "turn": 6
+  },
+  {
+   "locks_accepted": {
+    "L-index-bottom": "V"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    13,
+    15,
+    17,
+    14,
+    25
+   ],
+   "presses": [
+    "L-index-num",
+    "L-index-home",
+    "R-ring-num",
+    "L-index-top",
+    "R-index-num"
+   ],
+   "relabel": null,
+   "results": [
+    ".",
+    "C",
+    "G",
+    "M",
+    "U"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-ring-bottom",
+     "R-middle-home",
+     "R-pinky-top-o3"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "31": 46,
+     "46": 8,
+     "8": 31
+    },
+    "positions": [
+     8,
+     31,
+     46
+    ]
+   },
+   "turn": 7
+  },
+  {
+   "locks_accepted": {
+    "L-index-top": "M",
+    "R-index-num": "U"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    13,
+    15,
+    12,
+    30,
+    32
+   ],
+   "presses": [
+    "L-index-num",
+    "L-index-home",
+    "L-middle-bottom",
+    "R-middle-top",
+    "R-middle-bottom"
+   ],
+   "relabel": null,
+   "results": [
+    ".",
+    "6",
+    "C",
+    "T",
+    "Y"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-bottom-in",
+     "R-index-num",
+     "R-ring-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "19": 36,
+     "25": 19,
+     "36": 25
+    },
+    "positions": [
+     19,
+     25,
+     36
+    ]
+   },
+   "turn": 8
+  },
+  {
+   "locks_accepted": {
+    "R-index-home-in": "/",
+    "R-ring-num": "G"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    13,
+    12,
+    30,
+    23,
+    26
+   ],
+   "presses": [
+    "L-index-num",
+    "L-middle-bottom",
+    "R-middle-top",
+    "R-index-home-in",
+    "R-index-top"
+   ],
+   "relabel": null,
+   "results": [
+    ".",
+    "/",
+    "6",
+    "N",
+    "Y"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-middle-bottom",
+     "L-middle-num",
+     "R-pinky-num-o1"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "12": 41,
+     "41": 9,
+     "9": 12
+    },
+    "positions": [
+     9,
+     12,
+     41
+    ]
+   },
+   "turn": 9
+  },
+  {
+   "locks_accepted": {
+    "L-index-home": "C",
+    "L-index-num": ".",
+    "R-index-top": "N",
+    "R-middle-bottom": "T"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    36,
+    25,
+    19,
+    30,
+    26
+   ],
+   "presses": [
+    "L-index-bottom-in",
+    "R-index-num",
+    "R-ring-home",
+    "R-middle-top",
+    "R-index-top"
+   ],
+   "relabel": null,
+   "results": [
+    "4",
+    "6",
+    "A",
+    "N",
+    "U"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-home",
+     "L-ring-num",
+     "R-pinky-home-o1"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "15": 43,
+     "43": 5,
+     "5": 15
+    },
+    "positions": [
+     5,
+     15,
+     43
+    ]
+   },
+   "turn": 10
+  },
+  {
+   "locks_accepted": {
+    "R-middle-top": "6"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    29,
+    21,
+    22,
+    24,
+    27
+   ],
+   "presses": [
+    "R-middle-num",
+    "R-index-num-in",
+    "R-index-top-in",
+    "R-index-bottom-in",
+    "R-index-home"
+   ],
+   "relabel": null,
+   "results": [
+    ";",
+    "9",
+    "B",
+    "E",
+    "K"
+   ],
+   "rotation": {
+    "addresses": [
+     "R-index-home",
+     "R-pinky-num-o2",
+     "R-pinky-top"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "27": 44,
+     "38": 27,
+     "44": 38
+    },
+    "positions": [
+     27,
+     38,
+     44
+    ]
+   },
+   "turn": 11
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    29,
+    21,
+    22,
+    31,
+    28
+   ],
+   "presses": [
+    "R-middle-num",
+    "R-index-num-in",
+    "R-index-top-in",
+    "R-middle-home",
+    "R-index-bottom"
+   ],
+   "relabel": {
+    "a": "R-ring",
+    "b": "R-middle",
+    "notice": "RELABEL NOTICE: the R-ring finger column and the R-middle finger column have swapped addresses (every row). From now on, addresses starting R-ring- refer to the physical keys previously addressed R-middle-, and vice versa. Any rotation notice in this message already uses the NEW addressing."
+   },
+   "results": [
+    ";",
+    "2",
+    "9",
+    "B",
+    "F"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-pinky-num-out",
+     "L-ring-home",
+     "R-pinky-top"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "0": 7,
+     "38": 0,
+     "7": 38
+    },
+    "positions": [
+     0,
+     7,
+     38
+    ]
+   },
+   "turn": 12
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "presses": [
+    "R-pinky-num",
+    "R-pinky-top",
+    "R-pinky-home",
+    "R-pinky-bottom",
+    "R-pinky-num-o1"
+   ],
+   "relabel": null,
+   "results": [
+    "=",
+    "\\",
+    "5",
+    "H",
+    "Y"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-middle-home",
+     "L-middle-num",
+     "R-pinky-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "11": 9,
+     "39": 11,
+     "9": 39
+    },
+    "positions": [
+     9,
+     11,
+     39
+    ]
+   },
+   "turn": 13
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 1
+   },
+   "press_positions": [
+    19,
+    36,
+    23,
+    17,
+    29
+   ],
+   "presses": [
+    "R-middle-home",
+    "L-index-bottom-in",
+    "R-index-home-in",
+    "R-middle-num",
+    "R-ring-num"
+   ],
+   "relabel": null,
+   "results": [
+    ";",
+    "/",
+    "A",
+    "G",
+    "U"
+   ],
+   "rotation": {
+    "addresses": [
+     "R-pinky-bottom",
+     "R-pinky-num-o1",
+     "R-pinky-top-o2"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "40": 41,
+     "41": 45,
+     "45": 40
+    },
+    "positions": [
+     40,
+     41,
+     45
+    ]
+   },
+   "turn": 14
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "presses": [
+    "R-pinky-top-o1",
+    "R-pinky-home-o1",
+    "R-pinky-num-o2",
+    "R-pinky-top-o2",
+    "R-pinky-top-o3"
+   ],
+   "relabel": null,
+   "results": [
+    "8",
+    "C",
+    "K",
+    "L",
+    "Y"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-bottom",
+     "R-middle-home",
+     "R-middle-top"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "16": 19,
+     "18": 16,
+     "19": 18
+    },
+    "positions": [
+     16,
+     18,
+     19
+    ]
+   },
+   "turn": 15
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    2,
+    6,
+    10,
+    14,
+    26
+   ],
+   "presses": [
+    "L-pinky-top",
+    "L-ring-top",
+    "L-middle-top",
+    "L-index-top",
+    "R-index-top"
+   ],
+   "relabel": null,
+   "results": [
+    "'",
+    ",",
+    "M",
+    "N",
+    "Z"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-bottom",
+     "L-pinky-top",
+     "R-pinky-home-o1"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "16": 2,
+     "2": 43,
+     "43": 16
+    },
+    "positions": [
+     2,
+     16,
+     43
+    ]
+   },
+   "turn": 16
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    2,
+    10,
+    19,
+    15,
+    21
+   ],
+   "presses": [
+    "L-pinky-top",
+    "L-middle-top",
+    "R-middle-home",
+    "L-index-home",
+    "R-index-num-in"
+   ],
+   "relabel": null,
+   "results": [
+    "7",
+    "9",
+    "D",
+    "V",
+    "Z"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-middle-home",
+     "L-middle-num",
+     "L-ring-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "11": 9,
+     "7": 11,
+     "9": 7
+    },
+    "positions": [
+     7,
+     9,
+     11
+    ]
+   },
+   "turn": 17
+  },
+  {
+   "locks_accepted": {
+    "L-index-bottom-in": "A"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    22,
+    24,
+    27,
+    31,
+    17
+   ],
+   "presses": [
+    "R-index-top-in",
+    "R-index-bottom-in",
+    "R-index-home",
+    "R-ring-home",
+    "R-middle-num"
+   ],
+   "relabel": {
+    "a": "L-index",
+    "b": "L-pinky",
+    "notice": "RELABEL NOTICE: the L-index finger column and the L-pinky finger column have swapped addresses (every row). From now on, addresses starting L-index- refer to the physical keys previously addressed L-pinky-, and vice versa. Any rotation notice in this message already uses the NEW addressing."
+   },
+   "results": [
+    "B",
+    "E",
+    "F",
+    "G",
+    "J"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-num-in",
+     "L-index-top",
+     "L-middle-num"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "2": 9,
+     "33": 2,
+     "9": 33
+    },
+    "positions": [
+     2,
+     9,
+     33
+    ]
+   },
+   "turn": 18
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    22,
+    24,
+    21,
+    17,
+    29
+   ],
+   "presses": [
+    "R-index-top-in",
+    "R-index-bottom-in",
+    "R-index-num-in",
+    "R-middle-num",
+    "R-ring-num"
+   ],
+   "relabel": null,
+   "results": [
+    ";",
+    "9",
+    "B",
+    "E",
+    "G"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-num",
+     "L-pinky-num-out",
+     "R-pinky-bottom"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "0": 1,
+     "1": 40,
+     "40": 0
+    },
+    "positions": [
+     0,
+     1,
+     40
+    ]
+   },
+   "turn": 19
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    14,
+    10,
+    6,
+    26,
+    30
+   ],
+   "presses": [
+    "L-pinky-top",
+    "L-middle-top",
+    "L-ring-top",
+    "R-index-top",
+    "R-ring-top"
+   ],
+   "relabel": null,
+   "results": [
+    ",",
+    "6",
+    "M",
+    "N",
+    "Z"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-pinky-num-out",
+     "L-ring-num",
+     "R-index-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "0": 27,
+     "27": 5,
+     "5": 0
+    },
+    "positions": [
+     0,
+     5,
+     27
+    ]
+   },
+   "turn": 20
+  },
+  {
+   "locks_accepted": {
+    "R-index-bottom-in": "E",
+    "R-index-num-in": "9",
+    "R-index-top-in": "B",
+    "R-ring-num": ";"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    1,
+    13,
+    3,
+    15,
+    16
+   ],
+   "presses": [
+    "L-index-num",
+    "L-pinky-num",
+    "L-index-home",
+    "L-pinky-home",
+    "L-pinky-bottom"
+   ],
+   "relabel": null,
+   "results": [
+    ".",
+    "0",
+    "C",
+    "D",
+    "P"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-num",
+     "R-index-top",
+     "R-pinky-top"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "1": 38,
+     "26": 1,
+     "38": 26
+    },
+    "positions": [
+     1,
+     26,
+     38
+    ]
+   },
+   "turn": 21
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    27,
+    19,
+    31,
+    35,
+    23
+   ],
+   "presses": [
+    "R-index-home",
+    "R-middle-home",
+    "R-ring-home",
+    "L-index-home-in",
+    "R-index-home-in"
+   ],
+   "relabel": null,
+   "results": [
+    "]",
+    "/",
+    "F",
+    "Q",
+    "V"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-ring-bottom",
+     "L-ring-home",
+     "R-middle-num"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "17": 7,
+     "7": 8,
+     "8": 17
+    },
+    "positions": [
+     7,
+     8,
+     17
+    ]
+   },
+   "turn": 22
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    12,
+    20,
+    32,
+    40,
+    4
+   ],
+   "presses": [
+    "L-middle-bottom",
+    "R-middle-bottom",
+    "R-ring-bottom",
+    "R-pinky-bottom",
+    "L-index-bottom"
+   ],
+   "relabel": null,
+   "results": [
+    "`",
+    "[",
+    "3",
+    "R",
+    "T"
+   ],
+   "rotation": {
+    "addresses": [
+     "R-index-num",
+     "R-index-top-in",
+     "R-pinky-home-o1"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "22": 25,
+     "25": 43,
+     "43": 22
+    },
+    "positions": [
+     22,
+     25,
+     43
+    ]
+   },
+   "turn": 23
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    33,
+    34,
+    35,
+    36,
+    37
+   ],
+   "presses": [
+    "L-index-num-in",
+    "L-index-top-in",
+    "L-index-home-in",
+    "L-index-bottom-in",
+    "R-pinky-num"
+   ],
+   "relabel": {
+    "a": "L-middle",
+    "b": "L-index",
+    "notice": "RELABEL NOTICE: the L-middle finger column and the L-index finger column have swapped addresses (every row). From now on, addresses starting L-middle- refer to the physical keys previously addressed L-index-, and vice versa. Any rotation notice in this message already uses the NEW addressing."
+   },
+   "results": [
+    "]",
+    "1",
+    "5",
+    "A",
+    "H"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-middle-bottom",
+     "R-pinky-top-o3",
+     "R-ring-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "31": 46,
+     "4": 31,
+     "46": 4
+    },
+    "positions": [
+     4,
+     31,
+     46
+    ]
+   },
+   "turn": 24
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    13,
+    14,
+    15,
+    16,
+    1
+   ],
+   "presses": [
+    "L-pinky-num",
+    "L-pinky-top",
+    "L-pinky-home",
+    "L-pinky-bottom",
+    "L-middle-num"
+   ],
+   "relabel": null,
+   "results": [
+    ".",
+    "C",
+    "D",
+    "M",
+    "N"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-pinky-home",
+     "R-pinky-num-o2",
+     "R-pinky-top"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "15": 38,
+     "38": 44,
+     "44": 15
+    },
+    "positions": [
+     15,
+     38,
+     44
+    ]
+   },
+   "turn": 25
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "presses": [
+    "L-ring-num",
+    "L-ring-top",
+    "L-ring-home",
+    "L-ring-bottom",
+    "L-index-num"
+   ],
+   "relabel": null,
+   "results": [
+    "-",
+    ",",
+    "7",
+    "G",
+    "J"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-pinky-num",
+     "R-index-top",
+     "R-pinky-top-o2"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "13": 45,
+     "26": 13,
+     "45": 26
+    },
+    "positions": [
+     13,
+     26,
+     45
+    ]
+   },
+   "turn": 26
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    25,
+    26,
+    27,
+    28,
+    21
+   ],
+   "presses": [
+    "R-index-num",
+    "R-index-top",
+    "R-index-home",
+    "R-index-bottom",
+    "R-index-num-in"
+   ],
+   "relabel": null,
+   "results": [
+    "2",
+    "9",
+    "B",
+    "Q",
+    "Y"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-middle-home",
+     "R-index-bottom",
+     "R-index-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "27": 3,
+     "28": 27,
+     "3": 28
+    },
+    "positions": [
+     3,
+     27,
+     28
+    ]
+   },
+   "turn": 27
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    25,
+    26,
+    27,
+    28,
+    3
+   ],
+   "presses": [
+    "R-index-num",
+    "R-index-top",
+    "R-index-home",
+    "R-index-bottom",
+    "L-middle-home"
+   ],
+   "relabel": null,
+   "results": [
+    "2",
+    "B",
+    "P",
+    "Q",
+    "Y"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-top",
+     "L-middle-num",
+     "R-pinky-bottom"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "1": 40,
+     "10": 1,
+     "40": 10
+    },
+    "positions": [
+     1,
+     10,
+     40
+    ]
+   },
+   "turn": 28
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    1,
+    2,
+    3,
+    4,
+    10
+   ],
+   "presses": [
+    "L-middle-num",
+    "L-middle-top",
+    "L-middle-home",
+    "L-middle-bottom",
+    "L-index-top"
+   ],
+   "relabel": null,
+   "results": [
+    "L",
+    "Q",
+    "R",
+    "W",
+    "Z"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-home",
+     "R-pinky-num-o1",
+     "R-pinky-top-o1"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "11": 42,
+     "41": 11,
+     "42": 41
+    },
+    "positions": [
+     11,
+     41,
+     42
+    ]
+   },
+   "turn": 29
+  }
+ ],
+ "result": {
+  "api_calls": 31,
+  "board_accuracy": 0.2553191489361702,
+  "board_n": 47,
+  "config": {
+   "board": "macbook47",
+   "chord_size": 5,
+   "dual": false,
+   "horizon": 36,
+   "layout_kind": "random",
+   "lock_bonus": 1,
+   "lock_penalty": -3,
+   "min_guess_turn": 1,
+   "near_qwerty_swaps": 6,
+   "relabel_every": 6,
+   "rotation_mode": "announced",
+   "rotation_schedule": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "rotor_size": 4
+  },
+  "correct": 12,
+  "diagnostics": {
+   "deduced_correct_in_guess": 11,
+   "deducible_at_guess": 34,
+   "known_presses": 46,
+   "total_presses": 145,
+   "tracker_truth_matches": 34,
+   "zero_info_chords": 3
+  },
+  "effort": "high",
+  "final_layout": {
+   "L-index-bottom": "3",
+   "L-index-bottom-in": "A",
+   "L-index-home": "=",
+   "L-index-home-in": "]",
+   "L-index-num": "7",
+   "L-index-num-in": "H",
+   "L-index-top": "R",
+   "L-index-top-in": "1",
+   "L-middle-bottom": "L",
+   "L-middle-home": "Q",
+   "L-middle-num": "Z",
+   "L-middle-top": "W",
+   "L-pinky-bottom": "C",
+   "L-pinky-home": "K",
+   "L-pinky-num": "\\",
+   "L-pinky-num-out": "S",
+   "L-pinky-top": "M",
+   "L-ring-bottom": "-",
+   "L-ring-home": "G",
+   "L-ring-num": "J",
+   "L-ring-top": ",",
+   "R-index-bottom": "P",
+   "R-index-bottom-in": "E",
+   "R-index-home": "2",
+   "R-index-home-in": "/",
+   "R-index-num": "B",
+   "R-index-num-in": "9",
+   "R-index-top": "Y",
+   "R-index-top-in": "'",
+   "R-middle-bottom": "`",
+   "R-middle-home": "V",
+   "R-middle-num": "O",
+   "R-middle-top": "U",
+   "R-pinky-bottom": "N",
+   "R-pinky-home": "I",
+   "R-pinky-home-o1": "4",
+   "R-pinky-num": "5",
+   "R-pinky-num-o1": "8",
+   "R-pinky-num-o2": "0",
+   "R-pinky-top": "D",
+   "R-pinky-top-o1": "X",
+   "R-pinky-top-o2": ".",
+   "R-pinky-top-o3": "F",
+   "R-ring-bottom": "T",
+   "R-ring-home": "[",
+   "R-ring-num": ";",
+   "R-ring-top": "6"
+  },
+  "forced_guess": false,
+  "guess": {
+   "L-index-bottom": "`",
+   "L-index-bottom-in": "A",
+   "L-index-home": "V",
+   "L-index-home-in": "H",
+   "L-index-num": "G",
+   "L-index-num-in": "1",
+   "L-index-top": "Z",
+   "L-index-top-in": "]",
+   "L-middle-bottom": "[",
+   "L-middle-home": "Q",
+   "L-middle-num": "R",
+   "L-middle-top": "W",
+   "L-pinky-bottom": "D",
+   "L-pinky-home": "C",
+   "L-pinky-num": ".",
+   "L-pinky-num-out": "X",
+   "L-pinky-top": "M",
+   "L-ring-bottom": "7",
+   "L-ring-home": "-",
+   "L-ring-num": "J",
+   "L-ring-top": ",",
+   "R-index-bottom": "F",
+   "R-index-bottom-in": "E",
+   "R-index-home": "P",
+   "R-index-home-in": "/",
+   "R-index-num": "4",
+   "R-index-num-in": "9",
+   "R-index-top": "N",
+   "R-index-top-in": "B",
+   "R-middle-bottom": "3",
+   "R-middle-home": "2",
+   "R-middle-num": "0",
+   "R-middle-top": "6",
+   "R-pinky-bottom": "L",
+   "R-pinky-home": "K",
+   "R-pinky-home-o1": "O",
+   "R-pinky-num": "5",
+   "R-pinky-num-o1": "\\",
+   "R-pinky-num-o2": "'",
+   "R-pinky-top": "=",
+   "R-pinky-top-o1": "I",
+   "R-pinky-top-o2": "Y",
+   "R-pinky-top-o3": "U",
+   "R-ring-bottom": "T",
+   "R-ring-home": "S",
+   "R-ring-num": ";",
+   "R-ring-top": "8"
+  },
+  "guess_turn": 30,
+  "lock_correct": 25,
+  "lock_score": 25,
+  "lock_wrong": 0,
+  "locks": {
+   "L-index-bottom-in": "A",
+   "L-index-num": "3",
+   "L-index-top": "E",
+   "L-middle-bottom": "[",
+   "L-middle-home": "P",
+   "L-middle-num": "R",
+   "L-pinky-bottom": "V",
+   "L-pinky-home": "C",
+   "L-pinky-num": ".",
+   "L-pinky-num-out": "X",
+   "L-pinky-top": "M",
+   "L-ring-bottom": "F",
+   "L-ring-home": "\\",
+   "L-ring-num": "J",
+   "L-ring-top": ",",
+   "R-index-bottom-in": "E",
+   "R-index-home-in": "/",
+   "R-index-num": "U",
+   "R-index-num-in": "9",
+   "R-index-top": "N",
+   "R-index-top-in": "B",
+   "R-middle-num": "G",
+   "R-ring-bottom": "T",
+   "R-ring-num": ";",
+   "R-ring-top": "6"
+  },
+  "meta": {
+   "retries": 0
+  },
+  "model": "gemini-3-flash-preview",
+  "prompt_version": "bb-r2",
+  "seed": 4,
+  "total_retries": 1,
+  "usage": {
+   "input_tokens": 137640,
+   "output_tokens": 347881,
+   "thinking_tokens": 344920,
+   "total_tokens": 485521
+  },
+  "violations": []
+ },
+ "transcript": [
+  {
+   "role": "system",
+   "text": "You are playing BLINDBOARD, a deduction game about a hidden keyboard.\n\nTHE BOARD\nThe board is the full main block of a MacBook keyboard: 47 keys (letters, number row, punctuation), addressed by touch-typing finger and row (rows: num, top, home, bottom); '-in' marks index-finger inner reach; '-out'/'-o1'/'-o2'/'-o3' mark pinky outer-reach columns. Each key is addressed by finger and row. The complete list of valid key addresses:\nL-pinky-num-out, L-pinky-num, L-pinky-top, L-pinky-home, L-pinky-bottom, L-ring-num, L-ring-top, L-ring-home, L-ring-bottom, L-middle-num, L-middle-top, L-middle-home, L-middle-bottom, L-index-num, L-index-top, L-index-home, L-index-bottom, L-index-num-in, L-index-top-in, L-index-home-in, L-index-bottom-in, R-index-num-in, R-index-top-in, R-index-home-in, R-index-bottom-in, R-index-num, R-index-top, R-index-home, R-index-bottom, R-middle-num, R-middle-top, R-middle-home, R-middle-bottom, R-ring-num, R-ring-top, R-ring-home, R-ring-bottom, R-pinky-num, R-pinky-top, R-pinky-home, R-pinky-bottom, R-pinky-num-o1, R-pinky-top-o1, R-pinky-home-o1, R-pinky-num-o2, R-pinky-top-o2, R-pinky-top-o3\n\nThe 47 symbols `, -, =, [, ], \\, ;, ', ,, ., /, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z are assigned to the 47 keys in a hidden arrangement (each symbol on exactly one key). Your job: work out which symbol is on which key (note: the backslash symbol is written \"\\\\\" inside JSON strings).\n\nEACH TURN\n- You press exactly 5 DIFFERENT keys (a chord) by giving their addresses.\n- Next turn you are told which 5 symbols those keys held, as a list sorted in the same fixed order as the symbol list above. You are NOT told which symbol came from which key. Overlap your chords cleverly to pin symbols to keys.\n\nROTATIONS\nAfter your presses each turn, some keys may be ROTATED: the letters on the rotated keys are rearranged among those same keys, and every rotated key ends up with a different letter than it had (the set of letters on those keys is unchanged; only their places among those keys change). Next turn you are told exactly WHICH keys were rotated, but not how they were rearranged. Rotations continue for the ENTIRE game and never stop: there is no rotation-free endgame.\n\nLOCKS (optional, side score)\nOn any press turn you may lock letters onto keys you are sure of: +1 point if correct at that moment, -3 if wrong. You get no feedback on locks during the game. Each key can be locked only once, ever.\n\nFINAL GUESS\nYou may end the game at any time by submitting your full guess. After turn 36 you MUST submit it. Your main score is how many of the 47 keys you guess correctly, judged against the arrangement at the moment you guess.\n\nADDRESS RELABELING\nEvery 6 turns the ADDRESSING ITSELF changes: two same-shaped finger columns swap addresses, and you are told which (e.g. 'the L-ring and R-index columns have swapped addresses'). The hidden symbols do NOT move when this happens — only what you must call each key changes. Every notice and every press/lock/guess you make uses the NEWEST addressing. Relabelings compose over the game: always track what each address currently means.\n\nRESPONSE FORMAT\nReply with ONLY one JSON object, no other text.\nTo press: {\"presses\": [\"L-pinky-num-out\", \"L-pinky-bottom\", \"L-ring-bottom\"]}\nTo press and lock: {\"presses\": [ ... 5 addresses ... ], \"locks\": {\"L-pinky-num\": \"`\"}}\nTo guess (ends the game): {\"guess\": {\"L-pinky-num-out\": \"`\", ... one entry for every key ...}}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 1 of 36.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-pinky-num-out\", \"L-pinky-num\", \"L-pinky-top\", \"L-pinky-home\", \"L-pinky-bottom\"]}\n```",
+   "usage": {
+    "input_tokens": 1105,
+    "output_tokens": 2525,
+    "thinking_tokens": 2474,
+    "total_tokens": 3630
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 2 of 36.\nLast turn you pressed: L-pinky-num-out, L-pinky-num, L-pinky-top, L-pinky-home, L-pinky-bottom.\nTheir symbols (canonical order, unordered): [, ;, P, R, X.\nRotation notice: these keys were rotated after your presses: L-index-bottom, L-index-bottom-in, R-middle-home.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-pinky-num-out\", \"L-pinky-num\", \"L-pinky-top\", \"L-pinky-home\", \"L-ring-num\"]}\n```",
+   "usage": {
+    "input_tokens": 1265,
+    "output_tokens": 5724,
+    "thinking_tokens": 5675,
+    "total_tokens": 6989
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 3 of 36.\nLast turn you pressed: L-pinky-num-out, L-pinky-num, L-pinky-top, L-pinky-home, L-ring-num.\nTheir symbols (canonical order, unordered): ;, J, P, R, X.\nRotation notice: these keys were rotated after your presses: L-middle-bottom, R-index-num, R-pinky-home.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-pinky-num-out\", \"L-ring-top\", \"L-ring-home\", \"L-ring-bottom\", \"L-middle-num\"], \"locks\": {\"L-pinky-bottom\": \"[\", \"L-ring-num\": \"J\"}}\n```",
+   "usage": {
+    "input_tokens": 1423,
+    "output_tokens": 18530,
+    "thinking_tokens": 18460,
+    "total_tokens": 19953
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 4 of 36.\nLast turn you pressed: L-pinky-num-out, L-ring-top, L-ring-home, L-ring-bottom, L-middle-num.\nTheir symbols (canonical order, unordered): \\, ,, 3, F, X.\nRotation notice: these keys were rotated after your presses: L-index-bottom, L-pinky-top, R-middle-num.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-pinky-num\", \"L-pinky-home\", \"L-ring-top\", \"L-ring-home\", \"L-middle-top\"], \"locks\": {\"L-pinky-num-out\": \"X\"}}\n```",
+   "usage": {
+    "input_tokens": 1598,
+    "output_tokens": 12360,
+    "thinking_tokens": 12298,
+    "total_tokens": 13958
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 5 of 36.\nLast turn you pressed: L-pinky-num, L-pinky-home, L-ring-top, L-ring-home, L-middle-top.\nTheir symbols (canonical order, unordered): \\, ,, E, P, R.\nRotation notice: these keys were rotated after your presses: L-ring-num, R-index-home, R-pinky-top.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-pinky-num\", \"L-ring-top\", \"L-ring-bottom\", \"L-middle-bottom\", \"L-index-bottom\"], \"locks\": {\"L-middle-top\": \"E\"}}\n```",
+   "usage": {
+    "input_tokens": 1763,
+    "output_tokens": 17507,
+    "thinking_tokens": 17449,
+    "total_tokens": 19270
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 6 of 36.\nLast turn you pressed: L-pinky-num, L-ring-top, L-ring-bottom, L-middle-bottom, L-index-bottom.\nTheir symbols (canonical order, unordered): ,, F, M, R, V.\nRotation notice: these keys were rotated after your presses: L-index-top, L-middle-top, R-index-bottom-in.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"L-middle-bottom\",\n    \"L-index-num\",\n    \"L-index-top\",\n    \"L-index-home\",\n    \"L-index-num-in\"\n  ],\n  \"locks\": {\n    \"L-pinky-num\": \"R\",\n    \"L-pinky-home\": \"P\",\n    \"L-ring-top\": \",\",\n    \"L-ring-home\": \"\\\\\",\n    \"L-ring-bottom\": \"F\",\n    \"L-middle-num\": \"3\"\n  }\n}\n```",
+   "usage": {
+    "input_tokens": 1925,
+    "output_tokens": 20634,
+    "thinking_tokens": 20489,
+    "total_tokens": 22559
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 7 of 36.\nRELABEL NOTICE: the L-index-in finger column and the R-ring finger column have swapped addresses (every row). From now on, addresses starting L-index-in- refer to the physical keys previously addressed R-ring-, and vice versa. Any rotation notice in this message already uses the NEW addressing.\nLast turn you pressed: L-middle-bottom, L-index-num, L-index-top, L-index-home, L-index-num-in.\nTheir symbols (canonical order, unordered): ., /, C, G, M.\nRotation notice: these keys were rotated after your presses: L-index-top, L-middle-bottom, R-index-home-in.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"L-index-num\",\n    \"L-index-home\",\n    \"R-ring-num\",\n    \"L-index-top\",\n    \"R-index-num\"\n  ],\n  \"locks\": {\n    \"L-index-bottom\": \"V\"\n  }\n}\n```",
+   "usage": {
+    "input_tokens": 2240,
+    "output_tokens": 15600,
+    "thinking_tokens": 15516,
+    "total_tokens": 17840
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 8 of 36.\nLast turn you pressed: L-index-num, L-index-home, R-ring-num, L-index-top, R-index-num.\nTheir symbols (canonical order, unordered): ., C, G, M, U.\nRotation notice: these keys were rotated after your presses: L-ring-bottom, R-middle-home, R-pinky-top-o3.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"L-index-num\",\n    \"L-index-home\",\n    \"L-middle-bottom\",\n    \"R-middle-top\",\n    \"R-middle-bottom\"\n  ],\n  \"locks\": {\n    \"L-pinky-num-out\": \"X\",\n    \"L-pinky-num\": \"R\",\n    \"L-pinky-home\": \"P\",\n    \"L-pinky-bottom\": \"[\",\n    \"L-ring-top\": \",\",\n    \"L-ring-home\": \"\\\\\",\n    \"L-middle-num\": \"3\",\n    \"L-index-top\": \"M\",\n    \"L-index-bottom\": \"V\",\n    \"R-index-num\": \"U\"\n  }\n}\n\n```",
+   "usage": {
+    "input_tokens": 2429,
+    "output_tokens": 21488,
+    "thinking_tokens": 21294,
+    "total_tokens": 23917
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 9 of 36.\nLast turn you pressed: L-index-num, L-index-home, L-middle-bottom, R-middle-top, R-middle-bottom.\nTheir symbols (canonical order, unordered): ., 6, C, T, Y.\nRotation notice: these keys were rotated after your presses: L-index-bottom-in, R-index-num, R-ring-home.\nLock on L-pinky-num-out ignored: that key is already locked.\nLock on L-pinky-num ignored: that key is already locked.\nLock on L-pinky-home ignored: that key is already locked.\nLock on L-pinky-bottom ignored: that key is already locked.\nLock on L-ring-top ignored: that key is already locked.\nLock on L-ring-home ignored: that key is already locked.\nLock on L-middle-num ignored: that key is already locked.\nLock on L-index-bottom ignored: that key is already locked.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"L-index-num\",\n    \"L-middle-bottom\",\n    \"R-middle-top\",\n    \"R-index-home-in\",\n    \"R-index-top\"\n  ],\n  \"locks\": {\n    \"R-ring-num\": \"G\",\n    \"R-index-home-in\": \"/\"\n  }\n}\n```",
+   "usage": {
+    "input_tokens": 2861,
+    "output_tokens": 14807,
+    "thinking_tokens": 14709,
+    "total_tokens": 17668
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 10 of 36.\nLast turn you pressed: L-index-num, L-middle-bottom, R-middle-top, R-index-home-in, R-index-top.\nTheir symbols (canonical order, unordered): ., /, 6, N, Y.\nRotation notice: these keys were rotated after your presses: L-middle-bottom, L-middle-num, R-pinky-num-o1.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"L-index-bottom-in\",\n    \"R-index-num\",\n    \"R-ring-home\",\n    \"R-middle-top\",\n    \"R-index-top\"\n  ],\n  \"locks\": {\n    \"L-index-num\": \".\",\n    \"L-index-home\": \"C\",\n    \"R-middle-bottom\": \"T\",\n    \"L-index-top\": \"M\",\n    \"R-index-top\": \"N\"\n  }\n}\n\n```",
+   "usage": {
+    "input_tokens": 3067,
+    "output_tokens": 18144,
+    "thinking_tokens": 18012,
+    "total_tokens": 21211
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 11 of 36.\nLast turn you pressed: L-index-bottom-in, R-index-num, R-ring-home, R-middle-top, R-index-top.\nTheir symbols (canonical order, unordered): 4, 6, A, N, U.\nRotation notice: these keys were rotated after your presses: L-index-home, L-ring-num, R-pinky-home-o1.\nLock on L-index-top ignored: that key is already locked.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"R-middle-num\",\n    \"R-index-num-in\",\n    \"R-index-top-in\",\n    \"R-index-bottom-in\",\n    \"R-index-home\"\n  ],\n  \"locks\": {\n    \"R-middle-top\": \"6\",\n    \"R-index-top\": \"N\",\n    \"R-index-home-in\": \"/\",\n    \"R-middle-bottom\": \"T\",\n    \"L-index-num\": \".\",\n    \"L-index-bottom\": \"V\"\n  }\n}\n```",
+   "usage": {
+    "input_tokens": 3326,
+    "output_tokens": 11234,
+    "thinking_tokens": 11086,
+    "total_tokens": 14560
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 12 of 36.\nLast turn you pressed: R-middle-num, R-index-num-in, R-index-top-in, R-index-bottom-in, R-index-home.\nTheir symbols (canonical order, unordered): ;, 9, B, E, K.\nRotation notice: these keys were rotated after your presses: R-index-home, R-pinky-num-o2, R-pinky-top.\nLock on R-index-top ignored: that key is already locked.\nLock on R-index-home-in ignored: that key is already locked.\nLock on R-middle-bottom ignored: that key is already locked.\nLock on L-index-num ignored: that key is already locked.\nLock on L-index-bottom ignored: that key is already locked.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"R-middle-num\", \"R-index-num-in\", \"R-index-top-in\", \"R-middle-home\", \"R-index-bottom\"]}\n```",
+   "usage": {
+    "input_tokens": 3670,
+    "output_tokens": 8104,
+    "thinking_tokens": 8056,
+    "total_tokens": 11774
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 13 of 36.\nRELABEL NOTICE: the R-ring finger column and the R-middle finger column have swapped addresses (every row). From now on, addresses starting R-ring- refer to the physical keys previously addressed R-middle-, and vice versa. Any rotation notice in this message already uses the NEW addressing.\nLast turn you pressed: R-middle-num, R-index-num-in, R-index-top-in, R-middle-home, R-index-bottom.\nTheir symbols (canonical order, unordered): ;, 2, 9, B, F.\nRotation notice: these keys were rotated after your presses: L-pinky-num-out, L-ring-home, R-pinky-top.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"R-pinky-num\",\n    \"R-pinky-top\",\n    \"R-pinky-home\",\n    \"R-pinky-bottom\",\n    \"R-pinky-num-o1\"\n  ],\n  \"locks\": {\n    \"L-pinky-num\": \"R\",\n    \"L-pinky-home\": \"P\",\n    \"L-pinky-bottom\": \"[\",\n    \"L-ring-top\": \",\",\n    \"L-index-num\": \".\",\n    \"R-index-top\": \"N\",\n    \"R-ring-top\": \"6\",\n    \"R-ring-bottom\": \"T\"\n  }\n}\n\n```",
+   "usage": {
+    "input_tokens": 3892,
+    "output_tokens": 15364,
+    "thinking_tokens": 15190,
+    "total_tokens": 19256
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 14 of 36.\nLast turn you pressed: R-pinky-num, R-pinky-top, R-pinky-home, R-pinky-bottom, R-pinky-num-o1.\nTheir symbols (canonical order, unordered): =, \\, 5, H, Y.\nRotation notice: these keys were rotated after your presses: L-middle-home, L-middle-num, R-pinky-home.\nLock on L-pinky-num ignored: that key is already locked.\nLock on L-pinky-home ignored: that key is already locked.\nLock on L-pinky-bottom ignored: that key is already locked.\nLock on L-ring-top ignored: that key is already locked.\nLock on L-index-num ignored: that key is already locked.\nLock on R-index-top ignored: that key is already locked.\nLock on R-ring-top ignored: that key is already locked.\nLock on R-ring-bottom ignored: that key is already locked.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"R-middle-home\", \"L-index-in-bottom\", \"R-index-home-in\", \"R-middle-num\", \"R-ring-num\"], \"locks\": {\"L-index-bottom\": \"V\"}}\n```",
+   "usage": {
+    "input_tokens": 4308,
+    "output_tokens": 18705,
+    "thinking_tokens": 18644,
+    "total_tokens": 23013
+   }
+  },
+  {
+   "role": "user",
+   "text": "INVALID ACTION: Unknown key address in presses: 'L-index-in-bottom'. Use addresses from the rules list. Reply with ONLY a corrected action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"R-middle-home\",\n    \"L-index-bottom-in\",\n    \"R-index-home-in\",\n    \"R-middle-num\",\n    \"R-ring-num\"\n  ]\n}\n```",
+   "usage": {
+    "input_tokens": 4404,
+    "output_tokens": 11246,
+    "thinking_tokens": 11179,
+    "total_tokens": 15650
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 15 of 36.\nLast turn you pressed: R-middle-home, L-index-bottom-in, R-index-home-in, R-middle-num, R-ring-num.\nTheir symbols (canonical order, unordered): ;, /, A, G, U.\nRotation notice: these keys were rotated after your presses: R-pinky-bottom, R-pinky-num-o1, R-pinky-top-o2.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"R-pinky-top-o1\",\n    \"R-pinky-home-o1\",\n    \"R-pinky-num-o2\",\n    \"R-pinky-top-o2\",\n    \"R-pinky-top-o3\"\n  ]\n}\n\n```",
+   "usage": {
+    "input_tokens": 4585,
+    "output_tokens": 7643,
+    "thinking_tokens": 7560,
+    "total_tokens": 12228
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 16 of 36.\nLast turn you pressed: R-pinky-top-o1, R-pinky-home-o1, R-pinky-num-o2, R-pinky-top-o2, R-pinky-top-o3.\nTheir symbols (canonical order, unordered): 8, C, K, L, Y.\nRotation notice: these keys were rotated after your presses: L-index-bottom, R-middle-home, R-middle-top.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-pinky-top\", \"L-ring-top\", \"L-middle-top\", \"L-index-top\", \"R-index-top\"]}\n```",
+   "usage": {
+    "input_tokens": 4792,
+    "output_tokens": 2105,
+    "thinking_tokens": 2060,
+    "total_tokens": 6897
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 17 of 36.\nLast turn you pressed: L-pinky-top, L-ring-top, L-middle-top, L-index-top, R-index-top.\nTheir symbols (canonical order, unordered): ', ,, M, N, Z.\nRotation notice: these keys were rotated after your presses: L-index-bottom, L-pinky-top, R-pinky-home-o1.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-pinky-top\", \"L-middle-top\", \"R-middle-home\", \"L-index-home\", \"R-index-num-in\"], \"locks\": {\"L-ring-top\": \",\", \"R-index-top\": \"N\", \"L-pinky-num\": \"R\"}}\n```",
+   "usage": {
+    "input_tokens": 4944,
+    "output_tokens": 8688,
+    "thinking_tokens": 8610,
+    "total_tokens": 13632
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 18 of 36.\nLast turn you pressed: L-pinky-top, L-middle-top, R-middle-home, L-index-home, R-index-num-in.\nTheir symbols (canonical order, unordered): 7, 9, D, V, Z.\nRotation notice: these keys were rotated after your presses: L-middle-home, L-middle-num, L-ring-home.\nLock on L-ring-top ignored: that key is already locked.\nLock on R-index-top ignored: that key is already locked.\nLock on L-pinky-num ignored: that key is already locked.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"R-index-top-in\",\n    \"R-index-bottom-in\",\n    \"R-index-home\",\n    \"R-ring-home\",\n    \"R-middle-num\"\n  ],\n  \"locks\": {\n    \"R-index-num\": \"U\",\n    \"R-index-home-in\": \"/\",\n    \"L-index-bottom-in\": \"A\",\n    \"L-index-num\": \".\",\n    \"L-index-home\": \"C\",\n    \"L-index-top\": \"M\"\n  }\n}\n\n```",
+   "usage": {
+    "input_tokens": 5180,
+    "output_tokens": 18811,
+    "thinking_tokens": 18663,
+    "total_tokens": 23991
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 19 of 36.\nRELABEL NOTICE: the L-index finger column and the L-pinky finger column have swapped addresses (every row). From now on, addresses starting L-index- refer to the physical keys previously addressed L-pinky-, and vice versa. Any rotation notice in this message already uses the NEW addressing.\nLast turn you pressed: R-index-top-in, R-index-bottom-in, R-index-home, R-ring-home, R-middle-num.\nTheir symbols (canonical order, unordered): B, E, F, G, J.\nRotation notice: these keys were rotated after your presses: L-index-num-in, L-index-top, L-middle-num.\nLock on R-index-num ignored: that key is already locked.\nLock on R-index-home-in ignored: that key is already locked.\nLock on L-index-num ignored: that key is already locked.\nLock on L-index-home ignored: that key is already locked.\nLock on L-index-top ignored: that key is already locked.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"R-index-top-in\",\n    \"R-index-bottom-in\",\n    \"R-index-num-in\",\n    \"R-middle-num\",\n    \"R-ring-num\"\n  ]\n}\n```",
+   "usage": {
+    "input_tokens": 5583,
+    "output_tokens": 6610,
+    "thinking_tokens": 6541,
+    "total_tokens": 12193
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 20 of 36.\nLast turn you pressed: R-index-top-in, R-index-bottom-in, R-index-num-in, R-middle-num, R-ring-num.\nTheir symbols (canonical order, unordered): ;, 9, B, E, G.\nRotation notice: these keys were rotated after your presses: L-index-num, L-pinky-num-out, R-pinky-bottom.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-pinky-top\", \"L-middle-top\", \"L-ring-top\", \"R-index-top\", \"R-ring-top\"]}\n```_\n",
+   "usage": {
+    "input_tokens": 5765,
+    "output_tokens": 47,
+    "total_tokens": 5812
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 21 of 36.\nLast turn you pressed: L-pinky-top, L-middle-top, L-ring-top, R-index-top, R-ring-top.\nTheir symbols (canonical order, unordered): ,, 6, M, N, Z.\nRotation notice: these keys were rotated after your presses: L-pinky-num-out, L-ring-num, R-index-home.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"L-index-num\",\n    \"L-pinky-num\",\n    \"L-index-home\",\n    \"L-pinky-home\",\n    \"L-pinky-bottom\"\n  ],\n  \"locks\": {\n    \"R-index-top-in\": \"B\",\n    \"R-index-bottom-in\": \"E\",\n    \"R-index-num-in\": \"9\",\n    \"R-ring-num\": \";\"\n  }\n}\n```",
+   "usage": {
+    "input_tokens": 5919,
+    "output_tokens": 21447,
+    "thinking_tokens": 21320,
+    "total_tokens": 27366
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 22 of 36.\nLast turn you pressed: L-index-num, L-pinky-num, L-index-home, L-pinky-home, L-pinky-bottom.\nTheir symbols (canonical order, unordered): ., 0, C, D, P.\nRotation notice: these keys were rotated after your presses: L-index-num, R-index-top, R-pinky-top.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"R-index-home\", \"R-middle-home\", \"R-ring-home\", \"L-index-home-in\", \"R-index-home-in\"]}\n```",
+   "usage": {
+    "input_tokens": 6153,
+    "output_tokens": 6779,
+    "thinking_tokens": 6731,
+    "total_tokens": 12932
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 23 of 36.\nLast turn you pressed: R-index-home, R-middle-home, R-ring-home, L-index-home-in, R-index-home-in.\nTheir symbols (canonical order, unordered): ], /, F, Q, V.\nRotation notice: these keys were rotated after your presses: L-ring-bottom, L-ring-home, R-middle-num.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-middle-bottom\", \"R-middle-bottom\", \"R-ring-bottom\", \"R-pinky-bottom\", \"L-index-bottom\"]}\n```",
+   "usage": {
+    "input_tokens": 6306,
+    "output_tokens": 45,
+    "total_tokens": 6351
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 24 of 36.\nLast turn you pressed: L-middle-bottom, R-middle-bottom, R-ring-bottom, R-pinky-bottom, L-index-bottom.\nTheir symbols (canonical order, unordered): `, [, 3, R, T.\nRotation notice: these keys were rotated after your presses: R-index-num, R-index-top-in, R-pinky-home-o1.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"L-index-num-in\",\n    \"L-index-top-in\",\n    \"L-index-home-in\",\n    \"L-index-bottom-in\",\n    \"R-pinky-num\"\n  ]\n}\n```",
+   "usage": {
+    "input_tokens": 6460,
+    "output_tokens": 4710,
+    "thinking_tokens": 4638,
+    "total_tokens": 11170
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 25 of 36.\nRELABEL NOTICE: the L-middle finger column and the L-index finger column have swapped addresses (every row). From now on, addresses starting L-middle- refer to the physical keys previously addressed L-index-, and vice versa. Any rotation notice in this message already uses the NEW addressing.\nLast turn you pressed: L-index-num-in, L-index-top-in, L-index-home-in, L-index-bottom-in, R-pinky-num.\nTheir symbols (canonical order, unordered): ], 1, 5, A, H.\nRotation notice: these keys were rotated after your presses: L-middle-bottom, R-pinky-top-o3, R-ring-home.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\n  \"presses\": [\n    \"L-pinky-num\",\n    \"L-pinky-top\",\n    \"L-pinky-home\",\n    \"L-pinky-bottom\",\n    \"L-middle-num\"\n  ]\n}\n\n```",
+   "usage": {
+    "input_tokens": 6711,
+    "output_tokens": 16399,
+    "thinking_tokens": 16332,
+    "total_tokens": 23110
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 26 of 36.\nLast turn you pressed: L-pinky-num, L-pinky-top, L-pinky-home, L-pinky-bottom, L-middle-num.\nTheir symbols (canonical order, unordered): ., C, D, M, N.\nRotation notice: these keys were rotated after your presses: L-pinky-home, R-pinky-num-o2, R-pinky-top.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-ring-num\", \"L-ring-top\", \"L-ring-home\", \"L-ring-bottom\", \"L-index-num\"]}\n```",
+   "usage": {
+    "input_tokens": 6890,
+    "output_tokens": 7963,
+    "thinking_tokens": 7919,
+    "total_tokens": 14853
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 27 of 36.\nLast turn you pressed: L-ring-num, L-ring-top, L-ring-home, L-ring-bottom, L-index-num.\nTheir symbols (canonical order, unordered): -, ,, 7, G, J.\nRotation notice: these keys were rotated after your presses: L-pinky-num, R-index-top, R-pinky-top-o2.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"R-index-num\", \"R-index-top\", \"R-index-home\", \"R-index-bottom\", \"R-index-num-in\"]}\n```",
+   "usage": {
+    "input_tokens": 7041,
+    "output_tokens": 6135,
+    "thinking_tokens": 6089,
+    "total_tokens": 13176
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 28 of 36.\nLast turn you pressed: R-index-num, R-index-top, R-index-home, R-index-bottom, R-index-num-in.\nTheir symbols (canonical order, unordered): 2, 9, B, Q, Y.\nRotation notice: these keys were rotated after your presses: L-middle-home, R-index-bottom, R-index-home.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"R-index-num\", \"R-index-top\", \"R-index-home\", \"R-index-bottom\", \"L-middle-home\"]}\n```",
+   "usage": {
+    "input_tokens": 7194,
+    "output_tokens": 7585,
+    "thinking_tokens": 7541,
+    "total_tokens": 14779
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 29 of 36.\nLast turn you pressed: R-index-num, R-index-top, R-index-home, R-index-bottom, L-middle-home.\nTheir symbols (canonical order, unordered): 2, B, P, Q, Y.\nRotation notice: these keys were rotated after your presses: L-index-top, L-middle-num, R-pinky-bottom.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"presses\": [\"L-middle-num\", \"L-middle-top\", \"L-middle-home\", \"L-middle-bottom\", \"L-index-top\"]}\n```",
+   "usage": {
+    "input_tokens": 7343,
+    "output_tokens": 44,
+    "total_tokens": 7387
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 30 of 36.\nLast turn you pressed: L-middle-num, L-middle-top, L-middle-home, L-middle-bottom, L-index-top.\nTheir symbols (canonical order, unordered): L, Q, R, W, Z.\nRotation notice: these keys were rotated after your presses: L-index-home, R-pinky-num-o1, R-pinky-top-o1.\nReply with your action JSON."
+  },
+  {
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "STOP",
+   "text": "```json\n{\"guess\": {\"L-pinky-num-out\": \"X\", \"L-pinky-num\": \".\", \"L-pinky-top\": \"M\", \"L-pinky-home\": \"C\", \"L-pinky-bottom\": \"D\", \"L-ring-num\": \"J\", \"L-ring-top\": \",\", \"L-ring-home\": \"-\", \"L-ring-bottom\": \"7\", \"L-middle-num\": \"R\", \"L-middle-top\": \"W\", \"L-middle-home\": \"Q\", \"L-middle-bottom\": \"[\", \"L-index-num\": \"G\", \"L-index-top\": \"Z\", \"L-index-home\": \"V\", \"L-index-bottom\": \"`\", \"L-index-num-in\": \"1\", \"L-index-top-in\": \"]\", \"L-index-home-in\": \"H\", \"L-index-bottom-in\": \"A\", \"R-index-num-in\": \"9\", \"R-index-top-in\": \"B\", \"R-index-home-in\": \"/\", \"R-index-bottom-in\": \"E\", \"R-index-num\": \"4\", \"R-index-top\": \"N\", \"R-index-home\": \"P\", \"R-index-bottom\": \"F\", \"R-middle-num\": \"0\", \"R-middle-top\": \"6\", \"R-middle-home\": \"2\", \"R-middle-bottom\": \"3\", \"R-ring-num\": \";\", \"R-ring-top\": \"8\", \"R-ring-home\": \"S\", \"R-ring-bottom\": \"T\", \"R-pinky-num\": \"5\", \"R-pinky-top\": \"=\", \"R-pinky-home\": \"K\", \"R-pinky-bottom\": \"L\", \"R-pinky-num-o1\": \"\\\\\", \"R-pinky-top-o1\": \"I\", \"R-pinky-home-o1\": \"O\", \"R-pinky-num-o2\": \"'\", \"R-pinky-top-o2\": \"Y\", \"R-pinky-top-o3\": \"U\"}}\n```",
+   "usage": {
+    "input_tokens": 7498,
+    "output_tokens": 20898,
+    "thinking_tokens": 20385,
+    "total_tokens": 28396
+   }
+  }
+ ]
+}

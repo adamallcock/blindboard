@@ -1,0 +1,2317 @@
+{
+ "records": [
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "presses": [
+    "L-pinky-num-out",
+    "L-pinky-num",
+    "L-pinky-top",
+    "L-pinky-home",
+    "L-pinky-bottom"
+   ],
+   "relabel": null,
+   "results": [
+    "[",
+    ";",
+    "P",
+    "R",
+    "X"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-bottom",
+     "L-index-bottom-in",
+     "R-middle-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "16": 31,
+     "20": 16,
+     "31": 20
+    },
+    "positions": [
+     16,
+     20,
+     31
+    ]
+   },
+   "turn": 1
+  },
+  {
+   "locks_accepted": {},
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    0,
+    5,
+    6,
+    7,
+    8
+   ],
+   "presses": [
+    "L-pinky-num-out",
+    "L-ring-num",
+    "L-ring-top",
+    "L-ring-home",
+    "L-ring-bottom"
+   ],
+   "relabel": null,
+   "results": [
+    "\\",
+    ",",
+    "F",
+    "J",
+    "X"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-middle-bottom",
+     "R-index-num",
+     "R-pinky-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "12": 25,
+     "25": 39,
+     "39": 12
+    },
+    "positions": [
+     12,
+     25,
+     39
+    ]
+   },
+   "turn": 2
+  },
+  {
+   "locks_accepted": {
+    "L-pinky-num-out": "X"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    1,
+    5,
+    9,
+    10,
+    11
+   ],
+   "presses": [
+    "L-pinky-num",
+    "L-ring-num",
+    "L-middle-num",
+    "L-middle-top",
+    "L-middle-home"
+   ],
+   "relabel": null,
+   "results": [
+    "-",
+    "3",
+    "E",
+    "J",
+    "R"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-bottom",
+     "L-pinky-top",
+     "R-middle-num"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "16": 2,
+     "2": 29,
+     "29": 16
+    },
+    "positions": [
+     2,
+     16,
+     29
+    ]
+   },
+   "turn": 3
+  },
+  {
+   "locks_accepted": {
+    "L-pinky-num": "R",
+    "L-ring-num": "J"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    2,
+    6,
+    9,
+    12,
+    13
+   ],
+   "presses": [
+    "L-pinky-top",
+    "L-ring-top",
+    "L-middle-num",
+    "L-middle-bottom",
+    "L-index-num"
+   ],
+   "relabel": null,
+   "results": [
+    "'",
+    ",",
+    ".",
+    "3",
+    "M"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-ring-num",
+     "R-index-home",
+     "R-pinky-top"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "27": 5,
+     "38": 27,
+     "5": 38
+    },
+    "positions": [
+     5,
+     27,
+     38
+    ]
+   },
+   "turn": 4
+  },
+  {
+   "locks_accepted": {
+    "L-middle-num": "3",
+    "L-ring-top": ","
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    3,
+    7,
+    10,
+    12,
+    14
+   ],
+   "presses": [
+    "L-pinky-home",
+    "L-ring-home",
+    "L-middle-top",
+    "L-middle-bottom",
+    "L-index-top"
+   ],
+   "relabel": null,
+   "results": [
+    "\\",
+    "E",
+    "M",
+    "P",
+    "Z"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-top",
+     "L-middle-top",
+     "R-index-bottom-in"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "10": 24,
+     "14": 10,
+     "24": 14
+    },
+    "positions": [
+     10,
+     14,
+     24
+    ]
+   },
+   "turn": 5
+  },
+  {
+   "locks_accepted": {
+    "L-middle-bottom": "M",
+    "L-middle-home": "-",
+    "L-pinky-home": "P",
+    "L-ring-bottom": "F",
+    "L-ring-home": "\\"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    4,
+    13,
+    14,
+    10,
+    15
+   ],
+   "presses": [
+    "L-pinky-bottom",
+    "L-index-num",
+    "L-index-top",
+    "L-middle-top",
+    "L-index-home"
+   ],
+   "relabel": {
+    "a": "L-index-in",
+    "b": "R-ring",
+    "notice": "RELABEL NOTICE: the L-index-in finger column and the R-ring finger column have swapped addresses (every row). From now on, addresses starting L-index-in- refer to the physical keys previously addressed R-ring-, and vice versa. Any rotation notice in this message already uses the NEW addressing."
+   },
+   "results": [
+    "[",
+    ".",
+    "/",
+    "C",
+    "Z"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-top",
+     "L-middle-bottom",
+     "R-index-home-in"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "12": 14,
+     "14": 23,
+     "23": 12
+    },
+    "positions": [
+     12,
+     14,
+     23
+    ]
+   },
+   "turn": 6
+  },
+  {
+   "locks_accepted": {
+    "L-index-num": ".",
+    "L-middle-top": "Z",
+    "L-pinky-bottom": "[",
+    "L-pinky-top": "'",
+    "R-index-bottom-in": "E"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "presses": [
+    "L-index-home",
+    "L-index-bottom",
+    "R-ring-num",
+    "R-ring-top",
+    "R-ring-home"
+   ],
+   "relabel": null,
+   "results": [
+    "7",
+    "A",
+    "C",
+    "G",
+    "V"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-ring-bottom",
+     "R-middle-home",
+     "R-pinky-top-o3"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "31": 46,
+     "46": 8,
+     "8": 31
+    },
+    "positions": [
+     8,
+     31,
+     46
+    ]
+   },
+   "turn": 7
+  },
+  {
+   "locks_accepted": {
+    "L-index-home": "C",
+    "R-middle-num": ";"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    16,
+    20,
+    21,
+    22,
+    12
+   ],
+   "presses": [
+    "L-index-bottom",
+    "R-ring-bottom",
+    "R-index-num-in",
+    "R-index-top-in",
+    "L-middle-bottom"
+   ],
+   "relabel": null,
+   "results": [
+    "`",
+    "9",
+    "B",
+    "V",
+    "Y"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-bottom-in",
+     "R-index-num",
+     "R-ring-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "19": 36,
+     "25": 19,
+     "36": 25
+    },
+    "positions": [
+     19,
+     25,
+     36
+    ]
+   },
+   "turn": 8
+  },
+  {
+   "locks_accepted": {
+    "L-index-bottom": "V",
+    "L-index-top": "M",
+    "R-index-home-in": "/"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    17,
+    20,
+    25,
+    26,
+    27
+   ],
+   "presses": [
+    "R-ring-num",
+    "R-ring-bottom",
+    "R-index-num",
+    "R-index-top",
+    "R-index-home"
+   ],
+   "relabel": null,
+   "results": [
+    "`",
+    "4",
+    "G",
+    "K",
+    "N"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-middle-bottom",
+     "L-middle-num",
+     "R-pinky-num-o1"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "12": 41,
+     "41": 9,
+     "9": 12
+    },
+    "positions": [
+     9,
+     12,
+     41
+    ]
+   },
+   "turn": 9
+  },
+  {
+   "locks_accepted": {
+    "R-pinky-top": "J",
+    "R-ring-bottom": "`",
+    "R-ring-num": "G"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    18,
+    21,
+    25,
+    28,
+    12
+   ],
+   "presses": [
+    "R-ring-top",
+    "R-index-num-in",
+    "R-index-num",
+    "R-index-bottom",
+    "L-middle-bottom"
+   ],
+   "relabel": null,
+   "results": [
+    "2",
+    "3",
+    "4",
+    "7",
+    "9"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-home",
+     "L-ring-num",
+     "R-pinky-home-o1"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "15": 43,
+     "43": 5,
+     "5": 15
+    },
+    "positions": [
+     5,
+     15,
+     43
+    ]
+   },
+   "turn": 10
+  },
+  {
+   "locks_accepted": {
+    "L-index-bottom-in": "A",
+    "R-index-bottom": "2",
+    "R-index-num": "4",
+    "R-index-num-in": "9",
+    "R-ring-top": "7"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    22,
+    26,
+    19,
+    9,
+    30
+   ],
+   "presses": [
+    "R-index-top-in",
+    "R-index-top",
+    "R-ring-home",
+    "L-middle-num",
+    "R-middle-top"
+   ],
+   "relabel": null,
+   "results": [
+    "6",
+    "B",
+    "I",
+    "N",
+    "U"
+   ],
+   "rotation": {
+    "addresses": [
+     "R-index-home",
+     "R-pinky-num-o2",
+     "R-pinky-top"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "27": 44,
+     "38": 27,
+     "44": 38
+    },
+    "positions": [
+     27,
+     38,
+     44
+    ]
+   },
+   "turn": 11
+  },
+  {
+   "locks_accepted": {
+    "R-index-top": "N",
+    "R-index-top-in": "B",
+    "R-pinky-num-o1": "Y"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    19,
+    5,
+    31,
+    27,
+    32
+   ],
+   "presses": [
+    "R-ring-home",
+    "L-ring-num",
+    "R-middle-home",
+    "R-index-home",
+    "R-middle-bottom"
+   ],
+   "relabel": {
+    "a": "R-ring",
+    "b": "R-middle",
+    "notice": "RELABEL NOTICE: the R-ring finger column and the R-middle finger column have swapped addresses (every row). From now on, addresses starting R-ring- refer to the physical keys previously addressed R-middle-, and vice versa. Any rotation notice in this message already uses the NEW addressing."
+   },
+   "results": [
+    "F",
+    "J",
+    "S",
+    "T",
+    "U"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-pinky-num-out",
+     "L-ring-home",
+     "R-pinky-top"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "0": 7,
+     "38": 0,
+     "7": 38
+    },
+    "positions": [
+     0,
+     7,
+     38
+    ]
+   },
+   "turn": 12
+  },
+  {
+   "locks_accepted": {
+    "R-index-home": "J",
+    "R-middle-home": "U",
+    "R-pinky-home-o1": "C",
+    "R-pinky-num-o2": "K",
+    "R-ring-home": "F"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    9,
+    5,
+    0,
+    33,
+    34
+   ],
+   "presses": [
+    "L-middle-num",
+    "L-ring-num",
+    "L-pinky-num-out",
+    "L-index-num-in",
+    "L-index-top-in"
+   ],
+   "relabel": null,
+   "results": [
+    "0",
+    "1",
+    "I",
+    "S",
+    "W"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-middle-home",
+     "L-middle-num",
+     "R-pinky-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "11": 9,
+     "39": 11,
+     "9": 39
+    },
+    "positions": [
+     9,
+     11,
+     39
+    ]
+   },
+   "turn": 13
+  },
+  {
+   "locks_accepted": {
+    "R-ring-bottom": "T",
+    "R-ring-top": "6"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    33,
+    9,
+    8,
+    15,
+    35
+   ],
+   "presses": [
+    "L-index-num-in",
+    "L-middle-num",
+    "L-ring-bottom",
+    "L-index-home",
+    "L-index-home-in"
+   ],
+   "relabel": null,
+   "results": [
+    "-",
+    "]",
+    "D",
+    "O",
+    "W"
+   ],
+   "rotation": {
+    "addresses": [
+     "R-pinky-bottom",
+     "R-pinky-num-o1",
+     "R-pinky-top-o2"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "40": 41,
+     "41": 45,
+     "45": 40
+    },
+    "positions": [
+     40,
+     41,
+     45
+    ]
+   },
+   "turn": 14
+  },
+  {
+   "locks_accepted": {
+    "L-index-num-in": "W",
+    "R-pinky-home": "I"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    34,
+    11,
+    37,
+    40,
+    42
+   ],
+   "presses": [
+    "L-index-top-in",
+    "L-middle-home",
+    "R-pinky-num",
+    "R-pinky-bottom",
+    "R-pinky-top-o1"
+   ],
+   "relabel": null,
+   "results": [
+    "1",
+    "5",
+    "8",
+    "H",
+    "Q"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-bottom",
+     "R-middle-home",
+     "R-middle-top"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "16": 19,
+     "18": 16,
+     "19": 18
+    },
+    "positions": [
+     16,
+     18,
+     19
+    ]
+   },
+   "turn": 15
+  },
+  {
+   "locks_accepted": {
+    "L-index-top-in": "1",
+    "R-pinky-top-o2": "Y"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    8,
+    11,
+    37,
+    41,
+    16
+   ],
+   "presses": [
+    "L-ring-bottom",
+    "L-middle-home",
+    "R-pinky-num",
+    "R-pinky-num-o1",
+    "L-index-bottom"
+   ],
+   "relabel": null,
+   "results": [
+    "=",
+    "5",
+    "7",
+    "H",
+    "O"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-bottom",
+     "L-pinky-top",
+     "R-pinky-home-o1"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "16": 2,
+     "2": 43,
+     "43": 16
+    },
+    "positions": [
+     2,
+     16,
+     43
+    ]
+   },
+   "turn": 16
+  },
+  {
+   "locks_accepted": {
+    "R-pinky-top-o3": "L"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    15,
+    11,
+    40,
+    16,
+    46
+   ],
+   "presses": [
+    "L-index-home",
+    "L-middle-home",
+    "R-pinky-bottom",
+    "L-index-bottom",
+    "R-pinky-top-o3"
+   ],
+   "relabel": null,
+   "results": [
+    "C",
+    "D",
+    "H",
+    "L",
+    "Q"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-middle-home",
+     "L-middle-num",
+     "L-ring-home"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "11": 9,
+     "7": 11,
+     "9": 7
+    },
+    "positions": [
+     7,
+     9,
+     11
+    ]
+   },
+   "turn": 17
+  },
+  {
+   "locks_accepted": {
+    "L-index-home-in": "]",
+    "R-pinky-bottom": "Q",
+    "R-pinky-num": "5",
+    "R-pinky-top-o1": "8"
+   },
+   "meta": {
+    "retries": 0
+   },
+   "press_positions": [
+    11,
+    0,
+    1,
+    2,
+    3
+   ],
+   "presses": [
+    "L-middle-home",
+    "L-pinky-num-out",
+    "L-pinky-num",
+    "L-pinky-top",
+    "L-pinky-home"
+   ],
+   "relabel": {
+    "a": "L-index",
+    "b": "L-pinky",
+    "notice": "RELABEL NOTICE: the L-index finger column and the L-pinky finger column have swapped addresses (every row). From now on, addresses starting L-index- refer to the physical keys previously addressed L-pinky-, and vice versa. Any rotation notice in this message already uses the NEW addressing."
+   },
+   "results": [
+    "0",
+    "7",
+    "P",
+    "R",
+    "X"
+   ],
+   "rotation": {
+    "addresses": [
+     "L-index-num-in",
+     "L-index-top",
+     "L-middle-num"
+    ],
+    "mode": "announced",
+    "permutation": {
+     "2": 9,
+     "33": 2,
+     "9": 33
+    },
+    "positions": [
+     2,
+     9,
+     33
+    ]
+   },
+   "turn": 18
+  }
+ ],
+ "result": {
+  "api_calls": 19,
+  "board_accuracy": 1.0,
+  "board_n": 47,
+  "config": {
+   "board": "macbook47",
+   "chord_size": 5,
+   "dual": false,
+   "horizon": 36,
+   "layout_kind": "random",
+   "lock_bonus": 1,
+   "lock_penalty": -3,
+   "min_guess_turn": 1,
+   "near_qwerty_swaps": 6,
+   "relabel_every": 6,
+   "rotation_mode": "announced",
+   "rotation_schedule": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "rotor_size": 4
+  },
+  "correct": 47,
+  "diagnostics": {
+   "deduced_correct_in_guess": 44,
+   "deducible_at_guess": 44,
+   "known_presses": 5,
+   "total_presses": 90,
+   "tracker_truth_matches": 44,
+   "zero_info_chords": 0
+  },
+  "effort": "max",
+  "final_layout": {
+   "L-index-bottom": "[",
+   "L-index-bottom-in": "A",
+   "L-index-home": "P",
+   "L-index-home-in": "]",
+   "L-index-num": "R",
+   "L-index-num-in": "H",
+   "L-index-top": "W",
+   "L-index-top-in": "1",
+   "L-middle-bottom": "3",
+   "L-middle-home": "X",
+   "L-middle-num": "7",
+   "L-middle-top": "Z",
+   "L-pinky-bottom": "C",
+   "L-pinky-home": "D",
+   "L-pinky-num": ".",
+   "L-pinky-num-out": "0",
+   "L-pinky-top": "M",
+   "L-ring-bottom": "O",
+   "L-ring-home": "-",
+   "L-ring-num": "S",
+   "L-ring-top": ",",
+   "R-index-bottom": "2",
+   "R-index-bottom-in": "E",
+   "R-index-home": "J",
+   "R-index-home-in": "/",
+   "R-index-num": "4",
+   "R-index-num-in": "9",
+   "R-index-top": "N",
+   "R-index-top-in": "B",
+   "R-middle-bottom": "`",
+   "R-middle-home": "V",
+   "R-middle-num": "G",
+   "R-middle-top": "U",
+   "R-pinky-bottom": "Q",
+   "R-pinky-home": "I",
+   "R-pinky-home-o1": "'",
+   "R-pinky-num": "5",
+   "R-pinky-num-o1": "=",
+   "R-pinky-num-o2": "K",
+   "R-pinky-top": "\\",
+   "R-pinky-top-o1": "8",
+   "R-pinky-top-o2": "Y",
+   "R-pinky-top-o3": "L",
+   "R-ring-bottom": "T",
+   "R-ring-home": "F",
+   "R-ring-num": ";",
+   "R-ring-top": "6"
+  },
+  "forced_guess": false,
+  "guess": {
+   "L-index-bottom": "[",
+   "L-index-bottom-in": "A",
+   "L-index-home": "P",
+   "L-index-home-in": "]",
+   "L-index-num": "R",
+   "L-index-num-in": "H",
+   "L-index-top": "W",
+   "L-index-top-in": "1",
+   "L-middle-bottom": "3",
+   "L-middle-home": "X",
+   "L-middle-num": "7",
+   "L-middle-top": "Z",
+   "L-pinky-bottom": "C",
+   "L-pinky-home": "D",
+   "L-pinky-num": ".",
+   "L-pinky-num-out": "0",
+   "L-pinky-top": "M",
+   "L-ring-bottom": "O",
+   "L-ring-home": "-",
+   "L-ring-num": "S",
+   "L-ring-top": ",",
+   "R-index-bottom": "2",
+   "R-index-bottom-in": "E",
+   "R-index-home": "J",
+   "R-index-home-in": "/",
+   "R-index-num": "4",
+   "R-index-num-in": "9",
+   "R-index-top": "N",
+   "R-index-top-in": "B",
+   "R-middle-bottom": "`",
+   "R-middle-home": "V",
+   "R-middle-num": "G",
+   "R-middle-top": "U",
+   "R-pinky-bottom": "Q",
+   "R-pinky-home": "I",
+   "R-pinky-home-o1": "'",
+   "R-pinky-num": "5",
+   "R-pinky-num-o1": "=",
+   "R-pinky-num-o2": "K",
+   "R-pinky-top": "\\",
+   "R-pinky-top-o1": "8",
+   "R-pinky-top-o2": "Y",
+   "R-pinky-top-o3": "L",
+   "R-ring-bottom": "T",
+   "R-ring-home": "F",
+   "R-ring-num": ";",
+   "R-ring-top": "6"
+  },
+  "guess_turn": 19,
+  "lock_correct": 47,
+  "lock_score": 47,
+  "lock_wrong": 0,
+  "locks": {
+   "L-index-bottom": "[",
+   "L-index-bottom-in": "A",
+   "L-index-home": "P",
+   "L-index-home-in": "]",
+   "L-index-num": "R",
+   "L-index-num-in": "W",
+   "L-index-top": "'",
+   "L-index-top-in": "1",
+   "L-middle-bottom": "M",
+   "L-middle-home": "-",
+   "L-middle-num": "3",
+   "L-middle-top": "Z",
+   "L-pinky-bottom": "V",
+   "L-pinky-home": "C",
+   "L-pinky-num": ".",
+   "L-pinky-num-out": "X",
+   "L-pinky-top": "M",
+   "L-ring-bottom": "F",
+   "L-ring-home": "\\",
+   "L-ring-num": "J",
+   "L-ring-top": ",",
+   "R-index-bottom": "2",
+   "R-index-bottom-in": "E",
+   "R-index-home": "J",
+   "R-index-home-in": "/",
+   "R-index-num": "4",
+   "R-index-num-in": "9",
+   "R-index-top": "N",
+   "R-index-top-in": "B",
+   "R-middle-bottom": "`",
+   "R-middle-home": "U",
+   "R-middle-num": "G",
+   "R-middle-top": "7",
+   "R-pinky-bottom": "Q",
+   "R-pinky-home": "I",
+   "R-pinky-home-o1": "C",
+   "R-pinky-num": "5",
+   "R-pinky-num-o1": "Y",
+   "R-pinky-num-o2": "K",
+   "R-pinky-top": "J",
+   "R-pinky-top-o1": "8",
+   "R-pinky-top-o2": "Y",
+   "R-pinky-top-o3": "L",
+   "R-ring-bottom": "T",
+   "R-ring-home": "F",
+   "R-ring-num": ";",
+   "R-ring-top": "6"
+  },
+  "meta": {
+   "retries": 0
+  },
+  "model": "gpt-6-astra",
+  "prompt_version": "bb-r2",
+  "provenance": {
+   "routed_model": [
+    "gpt-6-astra"
+   ],
+   "service_tier": [
+    "flex"
+   ]
+  },
+  "seed": 4,
+  "total_retries": 0,
+  "usage": {
+   "cache_read_tokens": 150799,
+   "cache_write_tokens": 18924,
+   "input_tokens": 170760,
+   "output_tokens": 19269,
+   "reasoning_tokens": 17995,
+   "total_tokens": 190029
+  },
+  "violations": []
+ },
+ "transcript": [
+  {
+   "role": "system",
+   "text": "You are playing BLINDBOARD, a deduction game about a hidden keyboard.\n\nTHE BOARD\nThe board is the full main block of a MacBook keyboard: 47 keys (letters, number row, punctuation), addressed by touch-typing finger and row (rows: num, top, home, bottom); '-in' marks index-finger inner reach; '-out'/'-o1'/'-o2'/'-o3' mark pinky outer-reach columns. Each key is addressed by finger and row. The complete list of valid key addresses:\nL-pinky-num-out, L-pinky-num, L-pinky-top, L-pinky-home, L-pinky-bottom, L-ring-num, L-ring-top, L-ring-home, L-ring-bottom, L-middle-num, L-middle-top, L-middle-home, L-middle-bottom, L-index-num, L-index-top, L-index-home, L-index-bottom, L-index-num-in, L-index-top-in, L-index-home-in, L-index-bottom-in, R-index-num-in, R-index-top-in, R-index-home-in, R-index-bottom-in, R-index-num, R-index-top, R-index-home, R-index-bottom, R-middle-num, R-middle-top, R-middle-home, R-middle-bottom, R-ring-num, R-ring-top, R-ring-home, R-ring-bottom, R-pinky-num, R-pinky-top, R-pinky-home, R-pinky-bottom, R-pinky-num-o1, R-pinky-top-o1, R-pinky-home-o1, R-pinky-num-o2, R-pinky-top-o2, R-pinky-top-o3\n\nThe 47 symbols `, -, =, [, ], \\, ;, ', ,, ., /, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z are assigned to the 47 keys in a hidden arrangement (each symbol on exactly one key). Your job: work out which symbol is on which key (note: the backslash symbol is written \"\\\\\" inside JSON strings).\n\nEACH TURN\n- You press exactly 5 DIFFERENT keys (a chord) by giving their addresses.\n- Next turn you are told which 5 symbols those keys held, as a list sorted in the same fixed order as the symbol list above. You are NOT told which symbol came from which key. Overlap your chords cleverly to pin symbols to keys.\n\nROTATIONS\nAfter your presses each turn, some keys may be ROTATED: the letters on the rotated keys are rearranged among those same keys, and every rotated key ends up with a different letter than it had (the set of letters on those keys is unchanged; only their places among those keys change). Next turn you are told exactly WHICH keys were rotated, but not how they were rearranged. Rotations continue for the ENTIRE game and never stop: there is no rotation-free endgame.\n\nLOCKS (optional, side score)\nOn any press turn you may lock letters onto keys you are sure of: +1 point if correct at that moment, -3 if wrong. You get no feedback on locks during the game. Each key can be locked only once, ever.\n\nFINAL GUESS\nYou may end the game at any time by submitting your full guess. After turn 36 you MUST submit it. Your main score is how many of the 47 keys you guess correctly, judged against the arrangement at the moment you guess.\n\nADDRESS RELABELING\nEvery 6 turns the ADDRESSING ITSELF changes: two same-shaped finger columns swap addresses, and you are told which (e.g. 'the L-ring and R-index columns have swapped addresses'). The hidden symbols do NOT move when this happens — only what you must call each key changes. Every notice and every press/lock/guess you make uses the NEWEST addressing. Relabelings compose over the game: always track what each address currently means.\n\nRESPONSE FORMAT\nReply with ONLY one JSON object, no other text.\nTo press: {\"presses\": [\"L-pinky-num-out\", \"L-pinky-bottom\", \"L-ring-bottom\"]}\nTo press and lock: {\"presses\": [ ... 5 addresses ... ], \"locks\": {\"L-pinky-num\": \"`\"}}\nTo guess (ends the game): {\"guess\": {\"L-pinky-num-out\": \"`\", ... one entry for every key ...}}"
+  },
+  {
+   "role": "user",
+   "text": "TURN 1 of 36.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.05983,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 2
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "ba2738ba323256cc517ac7299022add387a7e6e1e6e5dd6eb5f0c65cdc185cac",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 0
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fc77197087d2bc9b00e288f665ae",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [
+    "**Analyzing chord strategies**\n\nI'm looking into strategies involving a 5-key chord system. With “replace1,” I wonder if I can isolate pairs or create new symbols. For example, pressing specific keys shows different assignments. It seems like I'd need to manage both known and unknown elements, as combinations may lead to ambiguity. I think I could also create a 5x5 grid for key mapping but face challenges with rotations and certainty. Overall, I need to identify keys efficiently without mistakes.",
+    "**Establishing initial key strategies**\n\nI'm pondering whether I could press keys arbitrarily across different rows and fingers to avoid rotation complexities. Since some keys might be rotated based on uncertainty, I feel like I need a solid plan. Establishing initial indices for 47 keys could make things easier. My goal is to adapt my approach based on the rules around key selection and rotation to streamline the process. I want to make sure I'm setting myself up for success!"
+   ],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-pinky-num-out\",\"L-pinky-num\",\"L-pinky-top\",\"L-pinky-home\",\"L-pinky-bottom\"]}",
+   "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "input_tokens": 983,
+    "output_tokens": 1000,
+    "reasoning_tokens": 963,
+    "total_tokens": 1983
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 2 of 36.\nLast turn you pressed: L-pinky-num-out, L-pinky-num, L-pinky-top, L-pinky-home, L-pinky-bottom.\nTheir symbols (canonical order, unordered): [, ;, P, R, X.\nRotation notice: these keys were rotated after your presses: L-index-bottom, L-index-bottom-in, R-middle-home.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.0308675,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 1
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "ba4c55c62d9fcf61da5b7f8c668a1ef4c6c1a584b1d76b6e5211a10427f60a82",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 1
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fc89529487d294a5ef8e9c2aba82",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-pinky-num-out\",\"L-ring-num\",\"L-ring-top\",\"L-ring-home\",\"L-ring-bottom\"]}",
+   "usage": {
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 2071,
+    "input_tokens": 2074,
+    "output_tokens": 99,
+    "reasoning_tokens": 66,
+    "total_tokens": 2173
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 3 of 36.\nLast turn you pressed: L-pinky-num-out, L-ring-num, L-ring-top, L-ring-home, L-ring-bottom.\nTheir symbols (canonical order, unordered): \\, ,, F, J, X.\nRotation notice: these keys were rotated after your presses: L-middle-bottom, R-index-num, R-pinky-home.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.010726,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 1
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "f6aabaf6663ba77728d9b11fa8871e3b767417132931e3f37298e107ebde92b9",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 2
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fc8c6e0487d29e7bb77b3ff59e74",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-pinky-num\",\"L-ring-num\",\"L-middle-num\",\"L-middle-top\",\"L-middle-home\"],\"locks\":{\"L-pinky-num-out\":\"X\"}}",
+   "usage": {
+    "cache_read_tokens": 2071,
+    "cache_write_tokens": 186,
+    "input_tokens": 2260,
+    "output_tokens": 126,
+    "reasoning_tokens": 84,
+    "total_tokens": 2386
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 4 of 36.\nLast turn you pressed: L-pinky-num, L-ring-num, L-middle-num, L-middle-top, L-middle-home.\nTheir symbols (canonical order, unordered): -, 3, E, J, R.\nRotation notice: these keys were rotated after your presses: L-index-bottom, L-pinky-top, R-middle-num.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.0291495,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 1
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "844d12cb72678129e4cb9512730e7a093f500ca78d5407b9fc44e79ec3089700",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 3
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fc8f66c487d29db40a84ec90e684",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-pinky-top\",\"L-ring-top\",\"L-middle-num\",\"L-middle-bottom\",\"L-index-num\"],\"locks\":{\"L-pinky-num\":\"R\",\"L-ring-num\":\"J\"}}",
+   "usage": {
+    "cache_read_tokens": 2257,
+    "cache_write_tokens": 213,
+    "input_tokens": 2473,
+    "output_tokens": 484,
+    "reasoning_tokens": 437,
+    "total_tokens": 2957
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 5 of 36.\nLast turn you pressed: L-pinky-top, L-ring-top, L-middle-num, L-middle-bottom, L-index-num.\nTheir symbols (canonical order, unordered): ', ,, ., 3, M.\nRotation notice: these keys were rotated after your presses: L-ring-num, R-index-home, R-pinky-top.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.028375,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 1
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "efeb289e764159a87a99b885eaee3865a212b027aca4565dc1167a585a19b68e",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 4
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fc99ccfc87d2b08dec982bce799d",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-pinky-home\",\"L-ring-home\",\"L-middle-top\",\"L-middle-bottom\",\"L-index-top\"],\"locks\":{\"L-ring-top\":\",\",\"L-middle-num\":\"3\"}}",
+   "usage": {
+    "cache_read_tokens": 2470,
+    "cache_write_tokens": 570,
+    "input_tokens": 3043,
+    "output_tokens": 375,
+    "reasoning_tokens": 329,
+    "total_tokens": 3418
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 6 of 36.\nLast turn you pressed: L-pinky-home, L-ring-home, L-middle-top, L-middle-bottom, L-index-top.\nTheir symbols (canonical order, unordered): \\, E, M, P, Z.\nRotation notice: these keys were rotated after your presses: L-index-top, L-middle-top, R-index-bottom-in.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.058795,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 2
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "13cf40e2b9380d2f381a6670be0395c6fbece322348aaca40893703558cdbe2e",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 5
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fca076f487d290ccb7e90a4d4b9f",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-pinky-bottom\",\"L-index-num\",\"L-index-top\",\"L-middle-top\",\"L-index-home\"],\"locks\":{\"L-pinky-home\":\"P\",\"L-ring-home\":\"\\\\\",\"L-ring-bottom\":\"F\",\"L-middle-home\":\"-\",\"L-middle-bottom\":\"M\"}}",
+   "usage": {
+    "cache_read_tokens": 3040,
+    "cache_write_tokens": 462,
+    "input_tokens": 3505,
+    "output_tokens": 999,
+    "reasoning_tokens": 934,
+    "total_tokens": 4504
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 7 of 36.\nRELABEL NOTICE: the L-index-in finger column and the R-ring finger column have swapped addresses (every row). From now on, addresses starting L-index-in- refer to the physical keys previously addressed R-ring-, and vice versa. Any rotation notice in this message already uses the NEW addressing.\nLast turn you pressed: L-pinky-bottom, L-index-num, L-index-top, L-middle-top, L-index-home.\nTheir symbols (canonical order, unordered): [, ., /, C, Z.\nRotation notice: these keys were rotated after your presses: L-index-top, L-middle-bottom, R-index-home-in.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.1204195,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 4
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "c2a0e153a292ebd8655a28e1d227a68f66cb350ac4e9b23fdc79bb71a98e3bc2",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 6
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fcb4884487d2b3ab833d2de9d088",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-index-home\",\"L-index-bottom\",\"R-ring-num\",\"R-ring-top\",\"R-ring-home\"],\"locks\":{\"L-pinky-top\":\"'\",\"L-pinky-bottom\":\"[\",\"L-middle-top\":\"Z\",\"L-index-num\":\".\",\"R-index-bottom-in\":\"E\"}}",
+   "usage": {
+    "cache_read_tokens": 3502,
+    "cache_write_tokens": 1143,
+    "input_tokens": 4648,
+    "output_tokens": 2052,
+    "reasoning_tokens": 1987,
+    "total_tokens": 6700
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 8 of 36.\nLast turn you pressed: L-index-home, L-index-bottom, R-ring-num, R-ring-top, R-ring-home.\nTheir symbols (canonical order, unordered): 7, A, C, G, V.\nRotation notice: these keys were rotated after your presses: L-ring-bottom, R-middle-home, R-pinky-top-o3.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.0556,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 1
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "01b9b82c7e74aae776e17889e83ac0b966c740f4cc69cc715b73957bfaec6cc5",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 7
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fcddec5487d2ac72551838387c49",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-index-bottom\",\"R-ring-bottom\",\"R-index-num-in\",\"R-index-top-in\",\"L-middle-bottom\"],\"locks\":{\"L-index-home\":\"C\",\"R-middle-num\":\";\"}}",
+   "usage": {
+    "cache_read_tokens": 4645,
+    "cache_write_tokens": 2146,
+    "input_tokens": 6794,
+    "output_tokens": 482,
+    "reasoning_tokens": 435,
+    "total_tokens": 7276
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 9 of 36.\nLast turn you pressed: L-index-bottom, R-ring-bottom, R-index-num-in, R-index-top-in, L-middle-bottom.\nTheir symbols (canonical order, unordered): `, 9, B, V, Y.\nRotation notice: these keys were rotated after your presses: L-index-bottom-in, R-index-num, R-ring-home.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.0541085,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 2
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "5184b4070d160ed59b0f80af1975c235affe4e2e90274f90da94614124575489",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 8
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fce86d1887d2b3e62749d6d4bd6d",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"R-ring-num\",\"R-ring-bottom\",\"R-index-num\",\"R-index-top\",\"R-index-home\"],\"locks\":{\"L-index-bottom\":\"V\",\"L-index-top\":\"M\",\"R-index-home-in\":\"/\"}}",
+   "usage": {
+    "cache_read_tokens": 6791,
+    "cache_write_tokens": 571,
+    "input_tokens": 7365,
+    "output_tokens": 803,
+    "reasoning_tokens": 751,
+    "total_tokens": 8168
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 10 of 36.\nLast turn you pressed: R-ring-num, R-ring-bottom, R-index-num, R-index-top, R-index-home.\nTheir symbols (canonical order, unordered): `, 4, G, K, N.\nRotation notice: these keys were rotated after your presses: L-middle-bottom, L-middle-num, R-pinky-num-o1.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.069092,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 2
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "ca314d367f4b319d71c5b956f6a80650169297a1f60dbc0ad41ae582c7a31e87",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 9
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fcf8a66087d29387fbd3f9c82160",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"R-ring-top\",\"R-index-num-in\",\"R-index-num\",\"R-index-bottom\",\"L-middle-bottom\"],\"locks\":{\"R-ring-num\":\"G\",\"R-ring-bottom\":\"`\",\"R-pinky-top\":\"J\"}}",
+   "usage": {
+    "cache_read_tokens": 7362,
+    "cache_write_tokens": 892,
+    "input_tokens": 8257,
+    "output_tokens": 1011,
+    "reasoning_tokens": 958,
+    "total_tokens": 9268
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 11 of 36.\nLast turn you pressed: R-ring-top, R-index-num-in, R-index-num, R-index-bottom, L-middle-bottom.\nTheir symbols (canonical order, unordered): 2, 3, 4, 7, 9.\nRotation notice: these keys were rotated after your presses: L-index-home, L-ring-num, R-pinky-home-o1.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.0982215,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 3
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "4c725462879a94ff78d7f811797d6844a7ed2c8ad5f81de4997526efd6990fca",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 10
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fd0bdcd087d2a75c034af5c80c85",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"R-index-top-in\",\"R-index-top\",\"R-ring-home\",\"L-middle-num\",\"R-middle-top\"],\"locks\":{\"R-ring-top\":\"7\",\"R-index-num-in\":\"9\",\"R-index-num\":\"4\",\"R-index-bottom\":\"2\",\"L-index-bottom-in\":\"A\"}}",
+   "usage": {
+    "cache_read_tokens": 8254,
+    "cache_write_tokens": 1107,
+    "input_tokens": 9364,
+    "output_tokens": 1522,
+    "reasoning_tokens": 1456,
+    "total_tokens": 10886
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 12 of 36.\nLast turn you pressed: R-index-top-in, R-index-top, R-ring-home, L-middle-num, R-middle-top.\nTheir symbols (canonical order, unordered): 6, B, I, N, U.\nRotation notice: these keys were rotated after your presses: R-index-home, R-pinky-num-o2, R-pinky-top.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.081116,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 2
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "2742337f88e783544032f3983ad0e1a36f0299ae01b234a3a888caccf056ebd5",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 11
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fd2a9dd487d282ccf136fdc4de85",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"R-ring-home\",\"L-ring-num\",\"R-middle-home\",\"R-index-home\",\"R-middle-bottom\"],\"locks\":{\"R-index-top-in\":\"B\",\"R-index-top\":\"N\",\"R-pinky-num-o1\":\"Y\"}}",
+   "usage": {
+    "cache_read_tokens": 9361,
+    "cache_write_tokens": 1614,
+    "input_tokens": 10978,
+    "output_tokens": 1031,
+    "reasoning_tokens": 976,
+    "total_tokens": 12009
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 13 of 36.\nRELABEL NOTICE: the R-ring finger column and the R-middle finger column have swapped addresses (every row). From now on, addresses starting R-ring- refer to the physical keys previously addressed R-middle-, and vice versa. Any rotation notice in this message already uses the NEW addressing.\nLast turn you pressed: R-ring-home, L-ring-num, R-middle-home, R-index-home, R-middle-bottom.\nTheir symbols (canonical order, unordered): F, J, S, T, U.\nRotation notice: these keys were rotated after your presses: L-pinky-num-out, L-ring-home, R-pinky-top.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.0764925,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 2
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "4c0c7fb9637f96ea7a2ea5c05144666c18d32df15f4542fd83d47e6728d0dfc0",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 12
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fd40d66487d287bdfb3ca23356b1",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-middle-num\",\"L-ring-num\",\"L-pinky-num-out\",\"L-index-num-in\",\"L-index-top-in\"],\"locks\":{\"R-middle-home\":\"U\",\"R-ring-home\":\"F\",\"R-index-home\":\"J\",\"R-pinky-num-o2\":\"K\",\"R-pinky-home-o1\":\"C\"}}",
+   "usage": {
+    "cache_read_tokens": 10975,
+    "cache_write_tokens": 1175,
+    "input_tokens": 12153,
+    "output_tokens": 1016,
+    "reasoning_tokens": 943,
+    "total_tokens": 13169
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 14 of 36.\nLast turn you pressed: L-middle-num, L-ring-num, L-pinky-num-out, L-index-num-in, L-index-top-in.\nTheir symbols (canonical order, unordered): 0, 1, I, S, W.\nRotation notice: these keys were rotated after your presses: L-middle-home, L-middle-num, R-pinky-home.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.09283,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 3
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "a8d86e1eae737407f83b2c95812f868024374bcc288a6c3d925ba13555d277f8",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 13
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fd52e2f487d2b5df1c50507f43b4",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-index-num-in\",\"L-middle-num\",\"L-ring-bottom\",\"L-index-home\",\"L-index-home-in\"],\"locks\":{\"R-ring-top\":\"6\",\"R-ring-bottom\":\"T\"}}",
+   "usage": {
+    "cache_read_tokens": 12150,
+    "cache_write_tokens": 1112,
+    "input_tokens": 13265,
+    "output_tokens": 1335,
+    "reasoning_tokens": 1288,
+    "total_tokens": 14600
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 15 of 36.\nLast turn you pressed: L-index-num-in, L-middle-num, L-ring-bottom, L-index-home, L-index-home-in.\nTheir symbols (canonical order, unordered): -, ], D, O, W.\nRotation notice: these keys were rotated after your presses: R-pinky-bottom, R-pinky-num-o1, R-pinky-top-o2.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.0530795,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 1
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "326169ee5f890f4815edb1fc0fbdc2c9214c322a0386a670cf8a57e8804bfa01",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 14
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fd6a1fcc87d29029a303493f2b63",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-index-top-in\",\"L-middle-home\",\"R-pinky-num\",\"R-pinky-bottom\",\"R-pinky-top-o1\"],\"locks\":{\"L-index-num-in\":\"W\",\"R-pinky-home\":\"I\"}}",
+   "usage": {
+    "cache_read_tokens": 13262,
+    "cache_write_tokens": 1427,
+    "input_tokens": 14692,
+    "output_tokens": 439,
+    "reasoning_tokens": 386,
+    "total_tokens": 15131
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 16 of 36.\nLast turn you pressed: L-index-top-in, L-middle-home, R-pinky-num, R-pinky-bottom, R-pinky-top-o1.\nTheir symbols (canonical order, unordered): 1, 5, 8, H, Q.\nRotation notice: these keys were rotated after your presses: L-index-bottom, R-middle-home, R-middle-top.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.0990815,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 3
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "19d85c64a7dd1d9e83f843fc01ebc01953cffdd86282b3eb0085aeb24d7960cb",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 15
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fd73700c87d289684b6f246e5d72",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-ring-bottom\",\"L-middle-home\",\"R-pinky-num\",\"R-pinky-num-o1\",\"L-index-bottom\"],\"locks\":{\"L-index-top-in\":\"1\",\"R-pinky-top-o2\":\"Y\"}}",
+   "usage": {
+    "cache_read_tokens": 14689,
+    "cache_write_tokens": 537,
+    "input_tokens": 15229,
+    "output_tokens": 1553,
+    "reasoning_tokens": 1500,
+    "total_tokens": 16782
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 17 of 36.\nLast turn you pressed: L-ring-bottom, L-middle-home, R-pinky-num, R-pinky-num-o1, L-index-bottom.\nTheir symbols (canonical order, unordered): =, 5, 7, H, O.\nRotation notice: these keys were rotated after your presses: L-index-bottom, L-pinky-top, R-pinky-home-o1.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.0806435,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 2
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "31f7e4db736bfe8e0d2e6fd60f3b4b989822b8f0525cf56a16ab7d54d12e8044",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 16
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fd8f11b087d2b345bfdaf8c36bc7",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-index-home\",\"L-middle-home\",\"R-pinky-bottom\",\"L-index-bottom\",\"R-pinky-top-o3\"],\"locks\":{\"R-pinky-top-o3\":\"L\"}}",
+   "usage": {
+    "cache_read_tokens": 15226,
+    "cache_write_tokens": 1655,
+    "input_tokens": 16884,
+    "output_tokens": 894,
+    "reasoning_tokens": 848,
+    "total_tokens": 17778
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 18 of 36.\nLast turn you pressed: L-index-home, L-middle-home, R-pinky-bottom, L-index-bottom, R-pinky-top-o3.\nTheir symbols (canonical order, unordered): C, D, H, L, Q.\nRotation notice: these keys were rotated after your presses: L-middle-home, L-middle-num, L-ring-home.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.074436,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 2
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "6bc46946c5462c3ed5f582535efc7533bb7ac3256bcb80b116aa64eb60293d31",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 17
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fd9f4b3887d28982ba79dd9b1f19",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"presses\":[\"L-middle-home\",\"L-pinky-num-out\",\"L-pinky-num\",\"L-pinky-top\",\"L-pinky-home\"],\"locks\":{\"L-index-home-in\":\"]\",\"R-pinky-num\":\"5\",\"R-pinky-bottom\":\"Q\",\"R-pinky-top-o1\":\"8\"}}",
+   "usage": {
+    "cache_read_tokens": 16881,
+    "cache_write_tokens": 982,
+    "input_tokens": 17866,
+    "output_tokens": 905,
+    "reasoning_tokens": 837,
+    "total_tokens": 18771
+   }
+  },
+  {
+   "role": "user",
+   "text": "TURN 19 of 36.\nRELABEL NOTICE: the L-index finger column and the L-pinky finger column have swapped addresses (every row). From now on, addresses starting L-index- refer to the physical keys previously addressed L-pinky-, and vice versa. Any rotation notice in this message already uses the NEW addressing.\nLast turn you pressed: L-middle-home, L-pinky-num-out, L-pinky-num, L-pinky-top, L-pinky-home.\nTheir symbols (canonical order, unordered): 0, 7, P, R, X.\nRotation notice: these keys were rotated after your presses: L-index-num-in, L-index-top, L-middle-num.\nReply with your action JSON."
+  },
+  {
+   "cost_usd_list": 0.1883055,
+   "harness": {
+    "compaction": {
+     "compact_threshold": null,
+     "enabled": false,
+     "item_count": 0,
+     "present": false
+    },
+    "name": "retained-reasoning",
+    "output_item_type_counts": {
+     "message": 1,
+     "reasoning": 6
+    },
+    "retention": {
+     "continuation": {
+      "effective_mode": "typed_item_replay",
+      "lossless": true,
+      "requested_mode": "typed_item_replay"
+     },
+     "reasoning_context": {
+      "requested": "all_turns",
+      "returned": "all_turns"
+     },
+     "replayed": "typed_output_items"
+    },
+    "state_digest": "c56c601e2b37224cae95ecb184a9d152e98c611ce1a1a92f49877ddbfb2d1980",
+    "transport": {
+     "http_attempts": 1,
+     "poll_attempts": 0,
+     "post_attempts": 1,
+     "provider_requests": 1,
+     "resume_behavior": []
+    },
+    "turn_index": 18
+   },
+   "price_date": "2026-09-25",
+   "provenance": {
+    "finish_reason": "completed",
+    "response_id": "resp_0e795dcd30d04837016ab6fdafb15487d2af6c37055f9ff8df",
+    "routed_model": "gpt-6-astra",
+    "service_tier": "flex"
+   },
+   "reasoning": [],
+   "role": "assistant",
+   "stop_reason": "completed",
+   "text": "{\"guess\":{\"L-pinky-num-out\":\"0\",\"L-pinky-num\":\".\",\"L-pinky-top\":\"M\",\"L-pinky-home\":\"D\",\"L-pinky-bottom\":\"C\",\"L-ring-num\":\"S\",\"L-ring-top\":\",\",\"L-ring-home\":\"-\",\"L-ring-bottom\":\"O\",\"L-middle-num\":\"7\",\"L-middle-top\":\"Z\",\"L-middle-home\":\"X\",\"L-middle-bottom\":\"3\",\"L-index-num\":\"R\",\"L-index-top\":\"W\",\"L-index-home\":\"P\",\"L-index-bottom\":\"[\",\"L-index-num-in\":\"H\",\"L-index-top-in\":\"1\",\"L-index-home-in\":\"]\",\"L-index-bottom-in\":\"A\",\"R-index-num-in\":\"9\",\"R-index-top-in\":\"B\",\"R-index-home-in\":\"/\",\"R-index-bottom-in\":\"E\",\"R-index-num\":\"4\",\"R-index-top\":\"N\",\"R-index-home\":\"J\",\"R-index-bottom\":\"2\",\"R-middle-num\":\"G\",\"R-middle-top\":\"U\",\"R-middle-home\":\"V\",\"R-middle-bottom\":\"`\",\"R-ring-num\":\";\",\"R-ring-top\":\"6\",\"R-ring-home\":\"F\",\"R-ring-bottom\":\"T\",\"R-pinky-num\":\"5\",\"R-pinky-top\":\"\\\\\",\"R-pinky-home\":\"I\",\"R-pinky-bottom\":\"Q\",\"R-pinky-num-o1\":\"=\",\"R-pinky-top-o1\":\"8\",\"R-pinky-home-o1\":\"'\",\"R-pinky-num-o2\":\"K\",\"R-pinky-top-o2\":\"Y\",\"R-pinky-top-o3\":\"L\"}}",
+   "usage": {
+    "cache_read_tokens": 17863,
+    "cache_write_tokens": 1061,
+    "input_tokens": 18927,
+    "output_tokens": 3143,
+    "reasoning_tokens": 2817,
+    "total_tokens": 22070
+   }
+  }
+ ]
+}

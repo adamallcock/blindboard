@@ -1,0 +1,44 @@
+{
+ "collected_on": "2026-10-01",
+ "cost_basis": "per_request_list",
+ "cost_usd_list_price": 1.3522,
+ "effort": "medium",
+ "harness": "retained-reasoning (forked native sessions) vs visible-only control",
+ "model": "claude-opus-5-5",
+ "purpose": "retention recall probe: can the model act on its retained reasoning?",
+ "tier": null,
+ "variants": {
+  "escape": {
+   "abstained_summary_n": 29,
+   "branch_failures": 3,
+   "control_answered": 0,
+   "control_jointly_consistent": 0,
+   "control_matches_summary_n": 0,
+   "errors": 3,
+   "jointly_consistent": 0,
+   "leaked": 0,
+   "matches_summary_n": 0,
+   "retained_answered": 0,
+   "scored": 32,
+   "summary_n_complete": 29,
+   "summary_shows_n": 32,
+   "trials": 32
+  },
+  "forced": {
+   "abstained_summary_n": 0,
+   "branch_failures": 12,
+   "control_answered": 32,
+   "control_jointly_consistent": 5,
+   "control_matches_summary_n": 0,
+   "errors": 12,
+   "jointly_consistent": 17,
+   "leaked": 0,
+   "matches_summary_n": 17,
+   "retained_answered": 20,
+   "scored": 32,
+   "summary_n_complete": 20,
+   "summary_shows_n": 32,
+   "trials": 32
+  }
+ }
+}

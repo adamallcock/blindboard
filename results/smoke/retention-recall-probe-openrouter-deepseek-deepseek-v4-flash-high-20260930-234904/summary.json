@@ -1,0 +1,44 @@
+{
+ "collected_on": "2026-10-01",
+ "cost_basis": "per_request_list",
+ "cost_usd_list_price": 0.002094,
+ "effort": "high",
+ "harness": "retained-reasoning (forked native sessions) vs visible-only control",
+ "model": "openrouter/deepseek/deepseek-v4-flash",
+ "purpose": "retention recall probe: can the model act on its retained reasoning?",
+ "tier": null,
+ "variants": {
+  "escape": {
+   "abstained_summary_n": 0,
+   "branch_failures": 0,
+   "control_answered": 0,
+   "control_jointly_consistent": 0,
+   "control_matches_summary_n": 0,
+   "errors": 0,
+   "jointly_consistent": 1,
+   "leaked": 0,
+   "matches_summary_n": 1,
+   "retained_answered": 1,
+   "scored": 1,
+   "summary_n_complete": 1,
+   "summary_shows_n": 1,
+   "trials": 1
+  },
+  "forced": {
+   "abstained_summary_n": 0,
+   "branch_failures": 0,
+   "control_answered": 1,
+   "control_jointly_consistent": 1,
+   "control_matches_summary_n": 0,
+   "errors": 0,
+   "jointly_consistent": 1,
+   "leaked": 0,
+   "matches_summary_n": 1,
+   "retained_answered": 1,
+   "scored": 1,
+   "summary_n_complete": 1,
+   "summary_shows_n": 1,
+   "trials": 1
+  }
+ }
+}

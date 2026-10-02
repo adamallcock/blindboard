@@ -1,0 +1,44 @@
+{
+ "collected_on": "2026-10-01",
+ "cost_basis": "per_request_list",
+ "cost_usd_list_price": 0.599672,
+ "effort": "medium",
+ "harness": "retained-reasoning (forked native sessions) vs visible-only control",
+ "model": "gpt-5.6-sol",
+ "purpose": "retention recall probe: can the model act on its retained reasoning?",
+ "tier": null,
+ "variants": {
+  "escape": {
+   "abstained_summary_n": 0,
+   "branch_failures": 0,
+   "control_answered": 0,
+   "control_jointly_consistent": 0,
+   "control_matches_summary_n": 0,
+   "errors": 0,
+   "jointly_consistent": 32,
+   "leaked": 0,
+   "matches_summary_n": 20,
+   "retained_answered": 32,
+   "scored": 32,
+   "summary_n_complete": 20,
+   "summary_shows_n": 20,
+   "trials": 32
+  },
+  "forced": {
+   "abstained_summary_n": 0,
+   "branch_failures": 0,
+   "control_answered": 32,
+   "control_jointly_consistent": 3,
+   "control_matches_summary_n": 1,
+   "errors": 0,
+   "jointly_consistent": 32,
+   "leaked": 0,
+   "matches_summary_n": 27,
+   "retained_answered": 32,
+   "scored": 32,
+   "summary_n_complete": 27,
+   "summary_shows_n": 27,
+   "trials": 32
+  }
+ }
+}

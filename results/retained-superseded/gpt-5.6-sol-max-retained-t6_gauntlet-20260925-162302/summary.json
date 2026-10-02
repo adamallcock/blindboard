@@ -1,0 +1,35 @@
+{
+ "board_accuracy_mean": 1.0,
+ "board_accuracy_sem": 0.0,
+ "collected_on": "2026-09-25",
+ "compact_threshold": null,
+ "cost_basis": "per_request_list",
+ "cost_usd_list_price": 3.0196,
+ "deduced_correct_in_guess_mean": 26.0,
+ "deducible_at_guess_mean": 26.0,
+ "effort": "max",
+ "episodes": 4,
+ "failed_seeds": {
+  "1": "ResponsesHTTPError: OpenAI Responses POST HTTP 400, code=invalid_prompt, request_id=req_3f8f6f91d8d249e9bde97d66979350b2; body_sha256=71ee8fa0c678db911dc5bcd0c07c55c035098185e8003587b161154a9ec8e4a9"
+ },
+ "guess_turn_mean": 24.0,
+ "harness": "retained-reasoning",
+ "known_presses_total": 172,
+ "lock_score_mean": 23.75,
+ "lock_wrong_total": 0,
+ "model": "gpt-5.6-sol",
+ "prompt_version": "bb-r2",
+ "reasoning_context": "all_turns",
+ "solve_rate": 1.0,
+ "tier": "t6_gauntlet",
+ "total_retries": 0,
+ "usage": {
+  "cache_read_tokens": 1242242,
+  "cache_write_tokens": 104934,
+  "input_tokens": 1350847,
+  "output_tokens": 99166,
+  "reasoning_tokens": 89278,
+  "total_tokens": 1450013
+ },
+ "violations_total": 0
+}

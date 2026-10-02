@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this release, please cite the paper and this archive."
+title: "Blindboard v1: environment, harness, and evidence"
+type: dataset
+version: 1.0.0
+# v1: add date-released: the day the release is published (YYYY-MM-DD).
+# doi: add doi (the version DOI) and identifiers (the version and concept DOIs), as in the ClerkBench release.
+authors:
+  - family-names: Allcock
+    given-names: Adam
+    affiliation: Independent researcher
+license:
+  - CC-BY-4.0
+  - Apache-2.0
+repository-code: "https://github.com/adamallcock/blindboard"
+abstract: >-
+  Code and data release for Blindboard, a benchmark that tests whether a
+  language model can keep track of facts that keep changing: the symbol layout
+  of a keyboard that is hidden and keeps being reshuffled. Includes the
+  environment and its scripted reference solver, the harness that carries
+  each model's reasoning between turns, every scored episode of both campaigns
+  with full transcripts, the diagnostics behind every published number, and a
+  one-command rebuild of every table and number in the paper.
+keywords:
+  - benchmark
+  - large language models
+  - state tracking
+  - reasoning
+  - evaluation
+preferred-citation:
+  type: article
+  title: "Blindboard: Measuring State Tracking Under Interference with a Hidden, Shifting Keyboard"
+  authors:
+    - family-names: Allcock
+      given-names: Adam
+  year: 2026

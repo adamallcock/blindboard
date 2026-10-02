@@ -1,0 +1,28 @@
+# Rebuilds every table and number in the paper from results/ and runs the
+# test suite, on every push and pull request. Standard library only, apart
+# from pytest; no API keys, no network calls beyond installing pytest.
+name: rebuild
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Rebuild every table, number, and CSV, and compare byte for byte
+        run: python3 rebuild.py
+      - name: Test suite
+        run: |
+          python3 -m pip install --quiet pytest
+          python3 -m pytest -q
