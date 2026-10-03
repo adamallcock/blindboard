@@ -236,9 +236,9 @@ under the Apache License, Version 2.0. See `LICENSE` and
 
 ## Citing
 
-Please cite the paper and this archive; `CITATION.cff` carries both. This
+Please cite the paper
+([doi:10.5281/zenodo.23121596](https://doi.org/10.5281/zenodo.23121596)) and this archive;
+`CITATION.cff` carries both. This
 version is archived on Zenodo as
 [doi:10.5281/zenodo.23121518](https://doi.org/10.5281/zenodo.23121518); the concept DOI
 [10.5281/zenodo.23121517](https://doi.org/10.5281/zenodo.23121517) always resolves to the latest version.
-
-<!-- doi: add the paper's DOI to the first sentence once it is deposited, as in the ClerkBench release. -->
