@@ -1,6 +1,6 @@
 # Blindboard — public release (v1)
 
-<!-- doi: add the Zenodo DOI badge here (the version DOI), as in the ClerkBench release. -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23121518.svg)](https://doi.org/10.5281/zenodo.23121518)
 [![rebuild](https://github.com/adamallcock/blindboard/actions/workflows/rebuild.yml/badge.svg)](https://github.com/adamallcock/blindboard/actions/workflows/rebuild.yml)
 
 Blindboard tests whether a language model can keep track of facts that keep
@@ -236,6 +236,9 @@ under the Apache License, Version 2.0. See `LICENSE` and
 
 ## Citing
 
-Please cite the paper and this archive; `CITATION.cff` carries both.
+Please cite the paper and this archive; `CITATION.cff` carries both. This
+version is archived on Zenodo as
+[doi:10.5281/zenodo.23121518](https://doi.org/10.5281/zenodo.23121518); the concept DOI
+[10.5281/zenodo.23121517](https://doi.org/10.5281/zenodo.23121517) always resolves to the latest version.
 
-<!-- doi: add the paper's DOI, this archive's version DOI, and the concept DOI, as in the ClerkBench release. -->
+<!-- doi: add the paper's DOI to the first sentence once it is deposited, as in the ClerkBench release. -->
